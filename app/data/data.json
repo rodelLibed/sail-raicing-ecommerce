@@ -1,0 +1,141 @@
+ [
+    {
+    "id": 1, 
+    "imageUrl": "/alingi-red-bull/alingi-shoes.webp",  
+    "title": "ARBR ON CLOUD COAST", 
+    "color": "ORANGE RED", 
+    "price": 4200,
+    "sizes" : [
+        { "size_id": 1, "size_name": "XS" },
+        { "size_id": 2, "size_name": "S" },
+        { "size_id": 3, "size_name": "M" },
+        { "size_id": 4, "size_name": "L" },
+        { "size_id": 5, "size_name": "XL" },
+        { "size_id": 6, "size_name": "XXL" }
+    ]
+   },
+    {
+     "id": 2,
+     "imageUrl": "/alingi-red-bull/alingi-jacket1.webp", 
+     "title": "ARBR GORE TEX JACKET", 
+     "color": "ORANGE RED", 
+     "price": 4200,
+     "sizes" : [
+      { "size_id": 1, "size_name": "XS" },
+      { "size_id": 2, "size_name": "S" },
+      { "size_id": 3, "size_name": "M" },
+      { "size_id": 4, "size_name": "L" },
+      { "size_id": 5, "size_name": "XL" },
+      { "size_id": 6, "size_name": "XXL" }
+  ]
+    },
+    {
+      "id": 3, 
+      "imageUrl": "/alingi-red-bull/alingi-jacket2.webp", 
+      "title": "ARBR JACKET",    
+      "color": "ORANGE RED", 
+      "price": 4200,
+      "sizes" : [
+        { "size_id": 1, "size_name": "XS" },
+        { "size_id": 2, "size_name": "S" },
+        { "size_id": 3, "size_name": "M" },
+        { "size_id": 4, "size_name": "L" },
+        { "size_id": 5, "size_name": "XL" },
+        { "size_id": 6, "size_name": "XXL" }
+    ]
+    
+    },
+      
+
+    { 
+      "id": 4,
+     "imageUrl": "/alingi-red-bull/alingi-jacket3.webp", 
+     "title": "ARBR GORE TEX SPRAYTOP", 
+     "color": "ORANGE RED", 
+     "price": 4200,
+     "sizes" : [
+      { "size_id": 1, "size_name": "XS" },
+      { "size_id": 2, "size_name": "S" },
+      { "size_id": 3, "size_name": "M" },
+      { "size_id": 4, "size_name": "L" },
+      { "size_id": 5, "size_name": "XL" },
+      { "size_id": 6, "size_name": "XXL" }
+  ]
+
+    },
+    {
+      "id": 5, 
+      "imageUrl": "/alingi-red-bull/alingi-pants.webp", 
+      "title": "ARBR TEAM GORE TEX PANT", 
+      "color": "ORANGE RED",
+       "price": 4200,
+       "sizes" : [
+        { "size_id": 1, "size_name": "XS" },
+        { "size_id": 2, "size_name": "S" },
+        { "size_id": 3, "size_name": "M" },
+        { "size_id": 4, "size_name": "L" },
+        { "size_id": 5, "size_name": "XL" },
+        { "size_id": 6, "size_name": "XXL" }
+    ]
+    },
+    { 
+      "id": 6, 
+      "imageUrl": "/alingi-red-bull/alingi-jacket4.webp",
+       "title": "CHALLENGE REVERSIBLE JACKET", 
+       "color": "ORANGE RED",
+       "price": 4200,
+       "sizes" : [
+        { "size_id": 1, "size_name": "XS" },
+        { "size_id": 2, "size_name": "S" },
+        { "size_id": 3, "size_name": "M" },
+        { "size_id": 4, "size_name": "L" },
+        { "size_id": 5, "size_name": "XL" },
+        { "size_id": 6, "size_name": "XXL" }
+    ]
+    },
+    {
+    "id": 7, 
+    "imageUrl": "/alingi-red-bull/alingi-jacket5.webp",
+    "title": "CHALLENGE REVERSIBLE JACKET",
+    "color": "ORANGE RED", 
+    "price": 4200,
+    "sizes" : [
+      { "size_id": 1, "size_name": "XS" },
+      { "size_id": 2, "size_name": "S" },
+      { "size_id": 3, "size_name": "M" },
+      { "size_id": 4, "size_name": "L" },
+      { "size_id": 5, "size_name": "XL" },
+      { "size_id": 6, "size_name": "XXL" }
+    ]
+    },
+    { 
+      "id": 8,
+      "imageUrl": "/alingi-red-bull/alingi-jacket6.webp",
+      "title": "CHALLENGE REVERSIBLE VEST",
+      "color": "ORANGE RED",
+      "price": 4200,
+      "sizes" : [
+        { "size_id": 1, "size_name": "XS" },
+        { "size_id": 2, "size_name": "S" },
+        { "size_id": 3, "size_name": "M" },
+        { "size_id": 4, "size_name": "L" },
+        { "size_id": 5, "size_name": "XL" },
+        { "size_id": 6, "size_name": "XXL" }
+     ]
+     },
+    { 
+      "id": 9,
+      "imageUrl": "/alingi-red-bull/alingi-jacket7.webp",
+      "title": "CHALLENGE REVERSIBLE VEST",
+      "color": "ORANGE RED",
+      "price": 4200,
+      "sizes" : [
+        { "size_id": 1, "size_name": "XS" },
+        { "size_id": 2, "size_name": "S" },
+        { "size_id": 3, "size_name": "M" },
+        { "size_id": 4, "size_name": "L" },
+        { "size_id": 5, "size_name": "XL" },
+        { "size_id": 6, "size_name": "XXL" }
+       ]
+    } 
+  ]

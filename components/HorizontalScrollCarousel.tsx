@@ -60,9 +60,9 @@ export default HorizontalScrollCarousel
 
 const Images = [
   {id: 1, img: "/mobile-vectran3.webp"},
-  {id: 3, img: "/big-vectran.webp"},
-  {id: 1, img: "/mobile-vectran2.webp"},
-  {id: 1, img: "/mobile-vectran2.webp"},
+  {id: 2, img: "/big-vectran.webp"},
+  {id: 3, img: "/mobile-vectran2.webp"},
+  {id: 4, img: "/mobile-vectran2.webp"},
 
  
   
