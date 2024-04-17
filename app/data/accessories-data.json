@@ -1,0 +1,168 @@
+[
+   { 
+     "id": 1, 
+     "imageUrl": "/accessories/accessories1.webp", 
+     "title": "CLOUD DOWN HOOD",
+     "color": "ORANGE RED", 
+     "price": 4200,
+     "sizes" : [
+      { "size_id": 1, "size_name": "XS" },
+      { "size_id": 2, "size_name": "S" },
+      { "size_id": 3, "size_name": "M" },
+      { "size_id": 4, "size_name": "L" },
+      { "size_id": 5, "size_name": "XL" },
+      { "size_id": 6, "size_name": "XXL" }
+    ]  
+    },
+    { 
+      "id": 2, 
+      "imageUrl": "/accessories/accessories2.webp", 
+      "title": "CLOUD DOWN HOOD", 
+      "color": "ORANGE RED", 
+      "price": 4200,
+      "sizes" : [
+        { "size_id": 1, "size_name": "XS" },
+        { "size_id": 2, "size_name": "S" },
+        { "size_id": 3, "size_name": "M" },
+        { "size_id": 4, "size_name": "L" },
+        { "size_id": 5, "size_name": "XL" },
+        { "size_id": 6, "size_name": "XXL" }
+      ]  
+
+    },
+    { 
+      "id": 3, 
+      "imageUrl": "/accessories/accessories3.webp", 
+      "title": "CLOUD DOWN HOOD", 
+      "color": "ORANGE RED", 
+      "price": 4200,
+      "sizes" : [
+        { "size_id": 1, "size_name": "XS" },
+        { "size_id": 2, "size_name": "S" },
+        { "size_id": 3, "size_name": "M" },
+        { "size_id": 4, "size_name": "L" },
+        { "size_id": 5, "size_name": "XL" },
+        { "size_id": 6, "size_name": "XXL" }
+      ]
+
+    },
+    { "id": 4, 
+      "imageUrl": "/accessories/accessories4.webp", 
+      "title": "CLOUD DOWN HOOD", 
+      "color": "ORANGE RED", 
+      "price": 4200,
+      "sizes" : [
+        { "size_id": 1, "size_name": "XS" },
+        { "size_id": 2, "size_name": "S" },
+        { "size_id": 3, "size_name": "M" },
+        { "size_id": 4, "size_name": "L" },
+        { "size_id": 5, "size_name": "XL" },
+        { "size_id": 6, "size_name": "XXL" }
+      ]  
+    },
+    {
+      "id": 5, 
+      "imageUrl": "/accessories/accessories5.webp", 
+      "title": "CLOUD DOWN HOOD", 
+      "color": "ORANGE RED", 
+      "price": 4200,
+      "sizes" : [
+        { "size_id": 1, "size_name": "XS" },
+        { "size_id": 2, "size_name": "S" },
+        { "size_id": 3, "size_name": "M" },
+        { "size_id": 4, "size_name": "L" },
+        { "size_id": 5, "size_name": "XL" },
+        { "size_id": 6, "size_name": "XXL" }
+      ]
+    },
+    { 
+      "id": 6, 
+      "imageUrl": "/accessories/accessories6.webp", 
+      "title": "CLOUD DOWN HOOD", 
+      "color": "ORANGE RED",
+      "price": 4200,
+      "sizes" : [
+        { "size_id": 1, "size_name": "XS" },
+        { "size_id": 2, "size_name": "S" },
+        { "size_id": 3, "size_name": "M" },
+        { "size_id": 4, "size_name": "L" },
+        { "size_id": 5, "size_name": "XL" },
+        { "size_id": 6, "size_name": "XXL" }
+      ] 
+    },
+    { 
+      "id": 7, 
+      "imageUrl": "/accessories/accessories7.webp", 
+      "title": "CLOUD DOWN HOOD", 
+      "color": "ORANGE RED", 
+      "price": 4200,
+      "sizes" : [
+        { "size_id": 1, "size_name": "XS" },
+        { "size_id": 2, "size_name": "S" },
+        { "size_id": 3, "size_name": "M" },
+        { "size_id": 4, "size_name": "L" },
+        { "size_id": 5, "size_name": "XL" },
+        { "size_id": 6, "size_name": "XXL" }
+      ]
+    },
+    { 
+      "id": 8, 
+      "imageUrl": "/accessories/accessories9.webp", 
+      "title": "CLOUD DOWN HOOD", 
+      "color": "ORANGE RED", 
+      "price": 4200,
+      "sizes" : [
+        { "size_id": 1, "size_name": "XS" },
+        { "size_id": 2, "size_name": "S" },
+        { "size_id": 3, "size_name": "M" },
+        { "size_id": 4, "size_name": "L" },
+        { "size_id": 5, "size_name": "XL" },
+        { "size_id": 6, "size_name": "XXL" }
+      ]
+    },
+    { 
+      "id": 9,
+      "imageUrl": "/accessories/accessories10.webp", 
+      "title": "CLOUD DOWN HOOD", 
+      "color": "ORANGE RED", 
+      "price": 4200,
+      "sizes" : [
+        { "size_id": 1, "size_name": "XS" },
+        { "size_id": 2, "size_name": "S" },
+        { "size_id": 3, "size_name": "M" },
+        { "size_id": 4, "size_name": "L" },
+        { "size_id": 5, "size_name": "XL" },
+        { "size_id": 6, "size_name": "XXL" }
+      ] 
+    },
+    { 
+      "id": 10, 
+      "imageUrl": "/accessories/accessories11.webp", 
+      "title": "CLOUD DOWN HOOD", 
+      "color": "ORANGE RED", 
+      "price": 4200,
+      "sizes" : [
+        { "size_id": 1, "size_name": "XS" },
+        { "size_id": 2, "size_name": "S" },
+        { "size_id": 3, "size_name": "M" },
+        { "size_id": 4, "size_name": "L" },
+        { "size_id": 5, "size_name": "XL" },
+        { "size_id": 6, "size_name": "XXL" }
+      ]
+    },
+    {
+        "id": 11, 
+        "imageUrl": "/accessories/accessories12.webp", 
+        "title": "CLOUD DOWN HOOD", 
+        "color": "ORANGE RED", 
+        "price": 4200,
+        "sizes" : [
+            { "size_id": 1, "size_name": "XS" },
+            { "size_id": 2, "size_name": "S" },
+            { "size_id": 3, "size_name": "M" },
+            { "size_id": 4, "size_name": "L" },
+            { "size_id": 5, "size_name": "XL" },
+            { "size_id": 6, "size_name": "XXL" }
+          ]
+    }
+]

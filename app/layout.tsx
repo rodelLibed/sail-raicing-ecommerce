@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
-import MenShoppingCartProvider  from '@/context/MenShoppingCartContext'
+import ShoppingCartProvider  from '@/context/ShoppingCartContext'
 //
 import Header from '@/components/Header'
 
@@ -21,10 +21,10 @@ export default function RootLayout({
     <html lang="en">
    
       <body className={`${inter.className} w-full h-full bg-black flex flex-col m-0 p-0 `} suppressHydrationWarning={true}>
-          <MenShoppingCartProvider>
+          <ShoppingCartProvider>
           <Header />
           {children}
-          </MenShoppingCartProvider>
+          </ShoppingCartProvider>
       </body>
     </html>
   )

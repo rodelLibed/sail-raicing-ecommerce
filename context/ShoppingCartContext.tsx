@@ -1,37 +1,13 @@
 "use client"
 
-import { createContext, useContext, useEffect, useState } from "react"
+import { createContext, useContext,  useState } from "react"
+import { type ShoppingCart, CartItems } from "@/lib/shoppingcartypes"
 
 
 type ShoppingCartProps = {
    children: React.ReactNode
 }
 
-export type ShoppingCart = {
-  addCartItems: CartItems[]
-  handleAddToCart: (item: CartItems) => void
-  handleOpenCart: () => void
-  handleActiveButton: (id:number) => void
-  active: number
-  loading: boolean
-  openCart: boolean
-}
-
-type Sizes = {
-   size_id: number
-   size_name: string
-}
-
-
-type CartItems = {
-   id: number
-   imageUrl: string
-   title: string
-   color: string
-   price: number
-   sizes?: Sizes[]
-   
-}
 
  const ShoppingCartContext = createContext({} as ShoppingCart)
 
@@ -45,8 +21,9 @@ export default function MenShoppingCartProvider({children} : ShoppingCartProps){
     const [loading, setLoading] = useState(false)
     const [openCart, setOpenCart] = useState(false)
     const [active, isActive] = useState(0)
+    const [paymentCart, setPaymentCart] = useState(true)
      
-    const handleAddToCart = async(item : CartItems) => {
+    const handleAddToCart = async (item : CartItems) => {
        const productItem = addCartItems.find((items) => items.id === item.id)
        if(productItem){
          setLoading(true)
@@ -65,18 +42,36 @@ export default function MenShoppingCartProvider({children} : ShoppingCartProps){
        } 
     
     }
-    const handleOpenCart = async() => {
-      await new Promise ((resolve)=> setTimeout(resolve, 1000))
+
+    const handleOpenCart = () => {
+      setTimeout(()=> {
+         console.log("Open Cart....")
+      }, 3000)
       setOpenCart(false)
+      setPaymentCart(true)
+    }
+
+    const handlePaymentCart = () => {
+       setPaymentCart(!paymentCart)
     }
 
     const handleActiveButton = (id:number) => {
-       isActive(id)
+      isActive(id)
     }
 
 
      return (
-        <ShoppingCartContext.Provider value={{ addCartItems, handleAddToCart, loading, openCart, handleOpenCart, handleActiveButton, active }}>
+        <ShoppingCartContext.Provider value={{ 
+         addCartItems,
+         handleAddToCart, 
+         loading, 
+         openCart,
+         handleOpenCart, 
+         handleActiveButton, 
+         active, 
+         paymentCart, 
+         handlePaymentCart
+          }}>
             {children}
         </ShoppingCartContext.Provider>
     )
