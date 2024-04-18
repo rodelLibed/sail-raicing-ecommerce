@@ -1,0 +1,138 @@
+[
+    { 
+      "id": 91, 
+      "imageUrl": "/men/swimwear/swimwear1.webp", 
+      "title": "CLOUD DOWN HOOD",
+      "color": "ORANGE RED", 
+      "price": 4200,
+      "sizes" : [
+       { "size_id": 1, "size_name": "XS" },
+       { "size_id": 2, "size_name": "S" },
+       { "size_id": 3, "size_name": "M" },
+       { "size_id": 4, "size_name": "L" },
+       { "size_id": 5, "size_name": "XL" },
+       { "size_id": 6, "size_name": "XXL" }
+     ]  
+     },
+     { 
+       "id": 92, 
+       "imageUrl": "/men/swimwear/swimwear2.webp", 
+       "title": "CLOUD DOWN HOOD", 
+       "color": "ORANGE RED", 
+       "price": 4200,
+       "sizes" : [
+         { "size_id": 1, "size_name": "XS" },
+         { "size_id": 2, "size_name": "S" },
+         { "size_id": 3, "size_name": "M" },
+         { "size_id": 4, "size_name": "L" },
+         { "size_id": 5, "size_name": "XL" },
+         { "size_id": 6, "size_name": "XXL" }
+       ]  
+ 
+     },
+     { 
+       "id": 93, 
+       "imageUrl": "/men/swimwear/swimwear3.webp", 
+       "title": "CLOUD DOWN HOOD", 
+       "color": "ORANGE RED", 
+       "price": 4200,
+       "sizes" : [
+         { "size_id": 1, "size_name": "XS" },
+         { "size_id": 2, "size_name": "S" },
+         { "size_id": 3, "size_name": "M" },
+         { "size_id": 4, "size_name": "L" },
+         { "size_id": 5, "size_name": "XL" },
+         { "size_id": 6, "size_name": "XXL" }
+       ]
+ 
+     },
+     { "id": 94, 
+       "imageUrl": "/men/swimwear/swimwear4.webp", 
+       "title": "CLOUD DOWN HOOD", 
+       "color": "ORANGE RED", 
+       "price": 4200,
+       "sizes" : [
+         { "size_id": 1, "size_name": "XS" },
+         { "size_id": 2, "size_name": "S" },
+         { "size_id": 3, "size_name": "M" },
+         { "size_id": 4, "size_name": "L" },
+         { "size_id": 5, "size_name": "XL" },
+         { "size_id": 6, "size_name": "XXL" }
+       ]  
+     },
+     {
+       "id": 95, 
+       "imageUrl": "/men/swimwear/swimwear5.webp", 
+       "title": "CLOUD DOWN HOOD", 
+       "color": "ORANGE RED", 
+       "price": 4200,
+       "sizes" : [
+         { "size_id": 1, "size_name": "XS" },
+         { "size_id": 2, "size_name": "S" },
+         { "size_id": 3, "size_name": "M" },
+         { "size_id": 4, "size_name": "L" },
+         { "size_id": 5, "size_name": "XL" },
+         { "size_id": 6, "size_name": "XXL" }
+       ]
+     },
+     { 
+       "id": 96, 
+       "imageUrl": "/men/swimwear/swimwear6.webp", 
+       "title": "CLOUD DOWN HOOD", 
+       "color": "ORANGE RED",
+       "price": 4200,
+       "sizes" : [
+         { "size_id": 1, "size_name": "XS" },
+         { "size_id": 2, "size_name": "S" },
+         { "size_id": 3, "size_name": "M" },
+         { "size_id": 4, "size_name": "L" },
+         { "size_id": 5, "size_name": "XL" },
+         { "size_id": 6, "size_name": "XXL" }
+       ] 
+     },
+     { 
+       "id": 97, 
+       "imageUrl": "/men/swimwear/swimwear7.webp", 
+       "title": "CLOUD DOWN HOOD", 
+       "color": "ORANGE RED", 
+       "price": 4200,
+       "sizes" : [
+         { "size_id": 1, "size_name": "XS" },
+         { "size_id": 2, "size_name": "S" },
+         { "size_id": 3, "size_name": "M" },
+         { "size_id": 4, "size_name": "L" },
+         { "size_id": 5, "size_name": "XL" },
+         { "size_id": 6, "size_name": "XXL" }
+       ]
+     },
+     { 
+       "id": 98, 
+       "imageUrl": "/men/swimwear/swimwear8.webp", 
+       "title": "CLOUD DOWN HOOD", 
+       "color": "ORANGE RED", 
+       "price": 4200,
+       "sizes" : [
+         { "size_id": 1, "size_name": "XS" },
+         { "size_id": 2, "size_name": "S" },
+         { "size_id": 3, "size_name": "M" },
+         { "size_id": 4, "size_name": "L" },
+         { "size_id": 5, "size_name": "XL" },
+         { "size_id": 6, "size_name": "XXL" }
+       ]
+     },
+     { 
+       "id": 99,
+       "imageUrl": "/men/swimwear/swimwear9.webp", 
+       "title": "CLOUD DOWN HOOD", 
+       "color": "ORANGE RED", 
+       "price": 4200,
+       "sizes" : [
+         { "size_id": 1, "size_name": "XS" },
+         { "size_id": 2, "size_name": "S" },
+         { "size_id": 3, "size_name": "M" },
+         { "size_id": 4, "size_name": "L" },
+         { "size_id": 5, "size_name": "XL" },
+         { "size_id": 6, "size_name": "XXL" }
+       ] 
+     }
+ ]

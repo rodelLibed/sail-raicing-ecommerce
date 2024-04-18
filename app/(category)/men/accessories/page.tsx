@@ -3,7 +3,7 @@ import { useState } from "react"
 import Image from "next/image"
 import SeparatorComponent from "@/components/Seperator"
 import GridCardComponent from "@/components/GridCardComponent"
-import storeItems from "@/app/data/accessories-data.json"
+import storeItems from "@/app/data/men-category-db/accessories-data.json"
 
 
 const AccessoriesComponent = () => {
@@ -16,7 +16,7 @@ const AccessoriesComponent = () => {
               <div style={{ position: 'relative', height: '430px' }}>
                 <Image
                   alt="Banner Image"
-                  src="/accessories/accessoriesImg.webp"
+                  src="/men/accessories/accessoriesImg.webp"
                   fill
                 
                   style={{

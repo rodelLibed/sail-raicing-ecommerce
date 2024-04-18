@@ -1,0 +1,138 @@
+[
+    { 
+      "id": 42, 
+      "imageUrl": "/men/shirts/shirts1.webp", 
+      "title": "CLOUD DOWN HOOD",
+      "color": "ORANGE RED", 
+      "price": 4200,
+      "sizes" : [
+       { "size_id": 1, "size_name": "XS" },
+       { "size_id": 2, "size_name": "S" },
+       { "size_id": 3, "size_name": "M" },
+       { "size_id": 4, "size_name": "L" },
+       { "size_id": 5, "size_name": "XL" },
+       { "size_id": 6, "size_name": "XXL" }
+     ]  
+     },
+     { 
+       "id": 43, 
+       "imageUrl": "/men/shirts/shirts2.webp", 
+       "title": "CLOUD DOWN HOOD", 
+       "color": "ORANGE RED", 
+       "price": 4200,
+       "sizes" : [
+         { "size_id": 1, "size_name": "XS" },
+         { "size_id": 2, "size_name": "S" },
+         { "size_id": 3, "size_name": "M" },
+         { "size_id": 4, "size_name": "L" },
+         { "size_id": 5, "size_name": "XL" },
+         { "size_id": 6, "size_name": "XXL" }
+       ]  
+ 
+     },
+     { 
+       "id": 44, 
+       "imageUrl": "/men/shirts/shirts3.webp", 
+       "title": "CLOUD DOWN HOOD", 
+       "color": "ORANGE RED", 
+       "price": 4200,
+       "sizes" : [
+         { "size_id": 1, "size_name": "XS" },
+         { "size_id": 2, "size_name": "S" },
+         { "size_id": 3, "size_name": "M" },
+         { "size_id": 4, "size_name": "L" },
+         { "size_id": 5, "size_name": "XL" },
+         { "size_id": 6, "size_name": "XXL" }
+       ]
+ 
+     },
+     { "id": 45, 
+       "imageUrl": "/men/shirts/shirts4.webp", 
+       "title": "CLOUD DOWN HOOD", 
+       "color": "ORANGE RED", 
+       "price": 4200,
+       "sizes" : [
+         { "size_id": 1, "size_name": "XS" },
+         { "size_id": 2, "size_name": "S" },
+         { "size_id": 3, "size_name": "M" },
+         { "size_id": 4, "size_name": "L" },
+         { "size_id": 5, "size_name": "XL" },
+         { "size_id": 6, "size_name": "XXL" }
+       ]  
+     },
+     {
+       "id": 46, 
+       "imageUrl": "/men/shirts/shirts5.webp", 
+       "title": "CLOUD DOWN HOOD", 
+       "color": "ORANGE RED", 
+       "price": 4200,
+       "sizes" : [
+         { "size_id": 1, "size_name": "XS" },
+         { "size_id": 2, "size_name": "S" },
+         { "size_id": 3, "size_name": "M" },
+         { "size_id": 4, "size_name": "L" },
+         { "size_id": 5, "size_name": "XL" },
+         { "size_id": 6, "size_name": "XXL" }
+       ]
+     },
+     { 
+       "id": 47, 
+       "imageUrl": "/men/shirts/shirts6.webp", 
+       "title": "CLOUD DOWN HOOD", 
+       "color": "ORANGE RED",
+       "price": 4200,
+       "sizes" : [
+         { "size_id": 1, "size_name": "XS" },
+         { "size_id": 2, "size_name": "S" },
+         { "size_id": 3, "size_name": "M" },
+         { "size_id": 4, "size_name": "L" },
+         { "size_id": 5, "size_name": "XL" },
+         { "size_id": 6, "size_name": "XXL" }
+       ] 
+     },
+     { 
+       "id": 48, 
+       "imageUrl": "/men/shirts/shirts7.webp", 
+       "title": "CLOUD DOWN HOOD", 
+       "color": "ORANGE RED", 
+       "price": 4200,
+       "sizes" : [
+         { "size_id": 1, "size_name": "XS" },
+         { "size_id": 2, "size_name": "S" },
+         { "size_id": 3, "size_name": "M" },
+         { "size_id": 4, "size_name": "L" },
+         { "size_id": 5, "size_name": "XL" },
+         { "size_id": 6, "size_name": "XXL" }
+       ]
+     },
+     { 
+       "id": 49, 
+       "imageUrl": "/men/shirts/shirts8.webp", 
+       "title": "CLOUD DOWN HOOD", 
+       "color": "ORANGE RED", 
+       "price": 4200,
+       "sizes" : [
+         { "size_id": 1, "size_name": "XS" },
+         { "size_id": 2, "size_name": "S" },
+         { "size_id": 3, "size_name": "M" },
+         { "size_id": 4, "size_name": "L" },
+         { "size_id": 5, "size_name": "XL" },
+         { "size_id": 6, "size_name": "XXL" }
+       ]
+     },
+     { 
+       "id": 50,
+       "imageUrl": "/men/shirts/shirts9.webp", 
+       "title": "CLOUD DOWN HOOD", 
+       "color": "ORANGE RED", 
+       "price": 4200,
+       "sizes" : [
+         { "size_id": 1, "size_name": "XS" },
+         { "size_id": 2, "size_name": "S" },
+         { "size_id": 3, "size_name": "M" },
+         { "size_id": 4, "size_name": "L" },
+         { "size_id": 5, "size_name": "XL" },
+         { "size_id": 6, "size_name": "XXL" }
+       ] 
+     }
+ ]

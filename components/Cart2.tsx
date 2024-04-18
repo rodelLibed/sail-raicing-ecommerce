@@ -58,10 +58,10 @@ export default function Cart2({cart2}: Cart2){
        </div>
  
       
-           {cart2.map((items)=> {
+           {cart2.map((items, idx)=> {
              return (
-               <div className="flex justify-center">
-                   <div key={items.id} className="flex flex-col justify-center gap-2 bg-white h-[80px] fixed bottom-0 w-[500px] px-3">
+               <div  key={items.id} className="flex justify-center">
+                   <div className="flex flex-col justify-center gap-2 bg-white h-[80px] fixed bottom-0 w-[500px] px-3">
                    <div className="flex justify-between">
                    <h3>TOTAL IN CART</h3>
                    <span>{items.price}</span>

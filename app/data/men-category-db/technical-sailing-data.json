@@ -1,0 +1,183 @@
+[
+    { 
+      "id": 18, 
+      "imageUrl": "/men/technical-sailing/sailing1.webp", 
+      "title": "CLOUD DOWN HOOD",
+      "color": "ORANGE RED", 
+      "price": 4200,
+      "sizes" : [
+       { "size_id": 1, "size_name": "XS" },
+       { "size_id": 2, "size_name": "S" },
+       { "size_id": 3, "size_name": "M" },
+       { "size_id": 4, "size_name": "L" },
+       { "size_id": 5, "size_name": "XL" },
+       { "size_id": 6, "size_name": "XXL" }
+     ]  
+     },
+     { 
+       "id": 19, 
+       "imageUrl": "/men/technical-sailing/sailing2.webp", 
+       "title": "CLOUD DOWN HOOD", 
+       "color": "ORANGE RED", 
+       "price": 4200,
+       "sizes" : [
+         { "size_id": 1, "size_name": "XS" },
+         { "size_id": 2, "size_name": "S" },
+         { "size_id": 3, "size_name": "M" },
+         { "size_id": 4, "size_name": "L" },
+         { "size_id": 5, "size_name": "XL" },
+         { "size_id": 6, "size_name": "XXL" }
+       ]  
+ 
+     },
+     { 
+       "id": 20, 
+       "imageUrl": "/men/technical-sailing/sailing3.webp", 
+       "title": "CLOUD DOWN HOOD", 
+       "color": "ORANGE RED", 
+       "price": 4200,
+       "sizes" : [
+         { "size_id": 1, "size_name": "XS" },
+         { "size_id": 2, "size_name": "S" },
+         { "size_id": 3, "size_name": "M" },
+         { "size_id": 4, "size_name": "L" },
+         { "size_id": 5, "size_name": "XL" },
+         { "size_id": 6, "size_name": "XXL" }
+       ]
+ 
+     },
+     { "id": 21, 
+       "imageUrl": "/men/technical-sailing/sailing4.webp", 
+       "title": "CLOUD DOWN HOOD", 
+       "color": "ORANGE RED", 
+       "price": 4200,
+       "sizes" : [
+         { "size_id": 1, "size_name": "XS" },
+         { "size_id": 2, "size_name": "S" },
+         { "size_id": 3, "size_name": "M" },
+         { "size_id": 4, "size_name": "L" },
+         { "size_id": 5, "size_name": "XL" },
+         { "size_id": 6, "size_name": "XXL" }
+       ]  
+     },
+     {
+       "id": 22, 
+       "imageUrl": "/men/technical-sailing/sailing5.webp", 
+       "title": "CLOUD DOWN HOOD", 
+       "color": "ORANGE RED", 
+       "price": 4200,
+       "sizes" : [
+         { "size_id": 1, "size_name": "XS" },
+         { "size_id": 2, "size_name": "S" },
+         { "size_id": 3, "size_name": "M" },
+         { "size_id": 4, "size_name": "L" },
+         { "size_id": 5, "size_name": "XL" },
+         { "size_id": 6, "size_name": "XXL" }
+       ]
+     },
+     { 
+       "id": 23, 
+       "imageUrl": "/men/technical-sailing/sailing6.webp", 
+       "title": "CLOUD DOWN HOOD", 
+       "color": "ORANGE RED",
+       "price": 4200,
+       "sizes" : [
+         { "size_id": 1, "size_name": "XS" },
+         { "size_id": 2, "size_name": "S" },
+         { "size_id": 3, "size_name": "M" },
+         { "size_id": 4, "size_name": "L" },
+         { "size_id": 5, "size_name": "XL" },
+         { "size_id": 6, "size_name": "XXL" }
+       ] 
+     },
+     { 
+       "id": 24, 
+       "imageUrl": "/men/technical-sailing/sailing7.webp", 
+       "title": "CLOUD DOWN HOOD", 
+       "color": "ORANGE RED", 
+       "price": 4200,
+       "sizes" : [
+         { "size_id": 1, "size_name": "XS" },
+         { "size_id": 2, "size_name": "S" },
+         { "size_id": 3, "size_name": "M" },
+         { "size_id": 4, "size_name": "L" },
+         { "size_id": 5, "size_name": "XL" },
+         { "size_id": 6, "size_name": "XXL" }
+       ]
+     },
+     { 
+       "id": 25, 
+       "imageUrl": "/men/technical-sailing/sailing8.webp", 
+       "title": "CLOUD DOWN HOOD", 
+       "color": "ORANGE RED", 
+       "price": 4200,
+       "sizes" : [
+         { "size_id": 1, "size_name": "XS" },
+         { "size_id": 2, "size_name": "S" },
+         { "size_id": 3, "size_name": "M" },
+         { "size_id": 4, "size_name": "L" },
+         { "size_id": 5, "size_name": "XL" },
+         { "size_id": 6, "size_name": "XXL" }
+       ]
+     },
+     { 
+       "id": 26,
+       "imageUrl": "/men/technical-sailing/sailing9.webp", 
+       "title": "CLOUD DOWN HOOD", 
+       "color": "ORANGE RED", 
+       "price": 4200,
+       "sizes" : [
+         { "size_id": 1, "size_name": "XS" },
+         { "size_id": 2, "size_name": "S" },
+         { "size_id": 3, "size_name": "M" },
+         { "size_id": 4, "size_name": "L" },
+         { "size_id": 5, "size_name": "XL" },
+         { "size_id": 6, "size_name": "XXL" }
+       ] 
+     },
+     { 
+       "id": 27, 
+       "imageUrl": "/men/technical-sailing/sailing10.webp", 
+       "title": "CLOUD DOWN HOOD", 
+       "color": "ORANGE RED", 
+       "price": 4200,
+       "sizes" : [
+         { "size_id": 1, "size_name": "XS" },
+         { "size_id": 2, "size_name": "S" },
+         { "size_id": 3, "size_name": "M" },
+         { "size_id": 4, "size_name": "L" },
+         { "size_id": 5, "size_name": "XL" },
+         { "size_id": 6, "size_name": "XXL" }
+       ]
+     },
+     {
+         "id": 28, 
+         "imageUrl": "/men/technical-sailing/sailing11.webp", 
+         "title": "CLOUD DOWN HOOD", 
+         "color": "ORANGE RED", 
+         "price": 4200,
+         "sizes" : [
+             { "size_id": 1, "size_name": "XS" },
+             { "size_id": 2, "size_name": "S" },
+             { "size_id": 3, "size_name": "M" },
+             { "size_id": 4, "size_name": "L" },
+             { "size_id": 5, "size_name": "XL" },
+             { "size_id": 6, "size_name": "XXL" }
+           ]
+     },
+     {
+        "id": 29, 
+        "imageUrl": "/men/technical-sailing/sailing12.webp", 
+        "title": "CLOUD DOWN HOOD", 
+        "color": "ORANGE RED", 
+        "price": 4200,
+        "sizes" : [
+            { "size_id": 1, "size_name": "XS" },
+            { "size_id": 2, "size_name": "S" },
+            { "size_id": 3, "size_name": "M" },
+            { "size_id": 4, "size_name": "L" },
+            { "size_id": 5, "size_name": "XL" },
+            { "size_id": 6, "size_name": "XXL" }
+          ]
+    }
+ ]

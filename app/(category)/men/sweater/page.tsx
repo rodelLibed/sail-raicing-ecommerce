@@ -1,9 +1,13 @@
+"use client"
+import { useState } from "react"
 import Image from "next/image"
 import SeparatorComponent from "@/components/Seperator"
+import GridCardComponent from "@/components/GridCardComponent"
+import storeItems from "@/app/data/men-category-db/sweater-data.json"
 
 
 const SweaterComponent = () => {
-  
+    const [data] = useState(storeItems)
   return (
     <main  className="h-full">
        {/* Product Navigation Section */}
@@ -11,7 +15,7 @@ const SweaterComponent = () => {
               <div style={{ position: 'relative', height: '430px' }}>
                 <Image
                   alt="Banner Image"
-                  src="/sweater-hoodies/sweaterImg.webp"
+                  src="/men/sweater-hoodies/sweaterImg.webp"
                   fill
                 
                   style={{
@@ -42,7 +46,7 @@ const SweaterComponent = () => {
 
             {/* Product Section */}
             <section >
-                  <GridCardComponent />
+                  <GridCardComponent cardData={data} />
             </section>
     </main>
   )
@@ -51,45 +55,3 @@ const SweaterComponent = () => {
 export default SweaterComponent
 
 
-const GridCardComponent = () => {
-    const cardImage = [
-      { imageUrl: "/sweater-hoodies/sweater1.webp", title: "CLOUD DOWN HOOD", color: "ORANGE RED", price: "P.4200" },
-      { imageUrl: "/sweater-hoodies/sweater2.webp", title: "CLOUD DOWN HOOD", color: "ORANGE RED", price: "P.4200"  },
-      { imageUrl: "/sweater-hoodies/sweater3.webp", title: "CLOUD DOWN HOOD", color: "ORANGE RED", price: "P.4200"},
-      { imageUrl: "/sweater-hoodies/sweater4.webp", title: "CLOUD DOWN HOOD", color: "ORANGE RED", price: "P.4200"  },
-      { imageUrl: "/sweater-hoodies/sweater5.webp", title: "CLOUD DOWN HOOD", color: "ORANGE RED", price: "P.4200"  },
-      { imageUrl: "/sweater-hoodies/sweater6.webp", title: "CLOUD DOWN HOOD", color: "ORANGE RED", price: "P.4200"  },
-      { imageUrl: "/sweater-hoodies/sweater7.webp", title: "CLOUD DOWN HOOD", color: "ORANGE RED", price: "P.4200"  },
-      { imageUrl: "/sweater-hoodies/sweater8.webp", title: "CLOUD DOWN HOOD", color: "ORANGE RED", price: "P.4200"  },
-      { imageUrl: "/sweater-hoodies/sweater9.webp", title: "CLOUD DOWN HOOD", color: "ORANGE RED", price: "P.4200"  },
-      { imageUrl: "/sweater-hoodies/sweater10.webp", title: "CLOUD DOWN HOOD", color: "ORANGE RED", price: "P.4200"  },
-      { imageUrl: "/sweater-hoodies/sweater11.webp", title: "CLOUD DOWN HOOD", color: "ORANGE RED", price: "P.4200"  },
-      { imageUrl: "/sweater-hoodies/sweater12.webp", title: "CLOUD DOWN HOOD", color: "ORANGE RED", price: "P.4200"  }, 
-       
-    ]
-    return (
-       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-7 px-3">
-            
-                {cardImage.map((details, idx)=>{
-                    return (
-                      <div  key={idx} className="flex flex-col mt-14">
-                        <div className="relative h-[300px]">
-                            <Image
-                            alt="Product Details"
-                            src={details.imageUrl}
-                            fill
-                            className="object-cover"
-                            />
-                        </div>
-                        <div className="text-center mt-10">
-                          <h1 className=" text-white text-lg font-medium ">{details.title}</h1>
-                           <h6 className="text-white text-sm">{details.color}</h6>
-                           <span className="text-white text-sm">{details.price}</span>
-                        </div>
-                     </div>
-                    )
-                })}
-            
-       </div>
-    )
-}

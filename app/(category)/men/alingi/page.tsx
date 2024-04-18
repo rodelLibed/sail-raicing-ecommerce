@@ -2,7 +2,7 @@
 import {  useState } from "react" 
 import Image from "next/image"
 import SeparatorComponent from "@/components/Seperator"
-import storeItems from "@/app/data/alingi-data.json"
+import storeItems from "@/app/data/men-category-db/alingi-data.json"
 import GridCardComponent from "@/components/GridCardComponent"
 
 
@@ -14,7 +14,7 @@ const AlingiComponent = () => {
             <div style={{ position: 'relative', height: '430px' }}>
              <Image
                 alt="Banner Image"
-                src="/alingi-red-bull/alingi-bannerImg.webp"
+                src="/men/alingi-red-bull/alingi-bannerImg.webp"
                 fill
                 style={{
                     objectFit: 'cover', // cover, contain, none

@@ -33,6 +33,7 @@ export default function MenShoppingCartProvider({children} : ShoppingCartProps){
          }))
          setLoading(false)
          setOpenCart(true)
+         console.log(productItem)
        }else{
          setLoading(true)
          await new Promise (resolve => setTimeout(resolve, 3000))

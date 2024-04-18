@@ -9,9 +9,9 @@ const GridCardComponent = ({ cardData }: GridCardData ) => {
     return (
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-7 px-3">
           
-        {cardData.map((details, index)=>{
+        {cardData.map((details)=>{
             return (
-              <div  key={index} className="flex flex-col mt-14 group">
+              <div  key={details.id} className="flex flex-col mt-14 group">
                 <div className="relative h-[300px]">
                     <Image
                     alt="Product Details"

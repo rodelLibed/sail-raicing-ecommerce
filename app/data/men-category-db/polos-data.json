@@ -1,0 +1,138 @@
+[
+    { 
+      "id": 51, 
+      "imageUrl": "/men/polo/polo1.webp", 
+      "title": "CLOUD DOWN HOOD",
+      "color": "ORANGE RED", 
+      "price": 4200,
+      "sizes" : [
+       { "size_id": 1, "size_name": "XS" },
+       { "size_id": 2, "size_name": "S" },
+       { "size_id": 3, "size_name": "M" },
+       { "size_id": 4, "size_name": "L" },
+       { "size_id": 5, "size_name": "XL" },
+       { "size_id": 6, "size_name": "XXL" }
+     ]  
+     },
+     { 
+       "id": 52, 
+       "imageUrl": "/men/polo/polo2.webp", 
+       "title": "CLOUD DOWN HOOD", 
+       "color": "ORANGE RED", 
+       "price": 4200,
+       "sizes" : [
+         { "size_id": 1, "size_name": "XS" },
+         { "size_id": 2, "size_name": "S" },
+         { "size_id": 3, "size_name": "M" },
+         { "size_id": 4, "size_name": "L" },
+         { "size_id": 5, "size_name": "XL" },
+         { "size_id": 6, "size_name": "XXL" }
+       ]  
+ 
+     },
+     { 
+       "id": 53, 
+       "imageUrl": "/men/polo/polo3.webp", 
+       "title": "CLOUD DOWN HOOD", 
+       "color": "ORANGE RED", 
+       "price": 4200,
+       "sizes" : [
+         { "size_id": 1, "size_name": "XS" },
+         { "size_id": 2, "size_name": "S" },
+         { "size_id": 3, "size_name": "M" },
+         { "size_id": 4, "size_name": "L" },
+         { "size_id": 5, "size_name": "XL" },
+         { "size_id": 6, "size_name": "XXL" }
+       ]
+ 
+     },
+     { "id": 54, 
+       "imageUrl": "/men/polo/polo4.webp", 
+       "title": "CLOUD DOWN HOOD", 
+       "color": "ORANGE RED", 
+       "price": 4200,
+       "sizes" : [
+         { "size_id": 1, "size_name": "XS" },
+         { "size_id": 2, "size_name": "S" },
+         { "size_id": 3, "size_name": "M" },
+         { "size_id": 4, "size_name": "L" },
+         { "size_id": 5, "size_name": "XL" },
+         { "size_id": 6, "size_name": "XXL" }
+       ]  
+     },
+     {
+       "id": 55, 
+       "imageUrl": "/men/polo/polo5.webp", 
+       "title": "CLOUD DOWN HOOD", 
+       "color": "ORANGE RED", 
+       "price": 4200,
+       "sizes" : [
+         { "size_id": 1, "size_name": "XS" },
+         { "size_id": 2, "size_name": "S" },
+         { "size_id": 3, "size_name": "M" },
+         { "size_id": 4, "size_name": "L" },
+         { "size_id": 5, "size_name": "XL" },
+         { "size_id": 6, "size_name": "XXL" }
+       ]
+     },
+     { 
+       "id": 56, 
+       "imageUrl": "/men/polo/polo6.webp", 
+       "title": "CLOUD DOWN HOOD", 
+       "color": "ORANGE RED",
+       "price": 4200,
+       "sizes" : [
+         { "size_id": 1, "size_name": "XS" },
+         { "size_id": 2, "size_name": "S" },
+         { "size_id": 3, "size_name": "M" },
+         { "size_id": 4, "size_name": "L" },
+         { "size_id": 5, "size_name": "XL" },
+         { "size_id": 6, "size_name": "XXL" }
+       ] 
+     },
+     { 
+       "id": 57, 
+       "imageUrl": "/men/polo/polo7.webp", 
+       "title": "CLOUD DOWN HOOD", 
+       "color": "ORANGE RED", 
+       "price": 4200,
+       "sizes" : [
+         { "size_id": 1, "size_name": "XS" },
+         { "size_id": 2, "size_name": "S" },
+         { "size_id": 3, "size_name": "M" },
+         { "size_id": 4, "size_name": "L" },
+         { "size_id": 5, "size_name": "XL" },
+         { "size_id": 6, "size_name": "XXL" }
+       ]
+     },
+     { 
+       "id": 58, 
+       "imageUrl": "/men/polo/polo8.webp", 
+       "title": "CLOUD DOWN HOOD", 
+       "color": "ORANGE RED", 
+       "price": 4200,
+       "sizes" : [
+         { "size_id": 1, "size_name": "XS" },
+         { "size_id": 2, "size_name": "S" },
+         { "size_id": 3, "size_name": "M" },
+         { "size_id": 4, "size_name": "L" },
+         { "size_id": 5, "size_name": "XL" },
+         { "size_id": 6, "size_name": "XXL" }
+       ]
+     },
+     { 
+       "id": 59,
+       "imageUrl": "/men/polo/polo9.webp", 
+       "title": "CLOUD DOWN HOOD", 
+       "color": "ORANGE RED", 
+       "price": 4200,
+       "sizes" : [
+         { "size_id": 1, "size_name": "XS" },
+         { "size_id": 2, "size_name": "S" },
+         { "size_id": 3, "size_name": "M" },
+         { "size_id": 4, "size_name": "L" },
+         { "size_id": 5, "size_name": "XL" },
+         { "size_id": 6, "size_name": "XXL" }
+       ] 
+     }
+ ]

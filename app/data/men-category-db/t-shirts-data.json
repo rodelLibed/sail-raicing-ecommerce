@@ -1,0 +1,123 @@
+[
+    { 
+      "id": 60, 
+      "imageUrl": "/men/t-shirts/t-shirt1.webp", 
+      "title": "CLOUD DOWN HOOD",
+      "color": "ORANGE RED", 
+      "price": 4200,
+      "sizes" : [
+       { "size_id": 1, "size_name": "XS" },
+       { "size_id": 2, "size_name": "S" },
+       { "size_id": 3, "size_name": "M" },
+       { "size_id": 4, "size_name": "L" },
+       { "size_id": 5, "size_name": "XL" },
+       { "size_id": 6, "size_name": "XXL" }
+     ]  
+     },
+     { 
+       "id": 61, 
+       "imageUrl": "/men/t-shirts/t-shirt2.webp", 
+       "title": "CLOUD DOWN HOOD", 
+       "color": "ORANGE RED", 
+       "price": 4200,
+       "sizes" : [
+         { "size_id": 1, "size_name": "XS" },
+         { "size_id": 2, "size_name": "S" },
+         { "size_id": 3, "size_name": "M" },
+         { "size_id": 4, "size_name": "L" },
+         { "size_id": 5, "size_name": "XL" },
+         { "size_id": 6, "size_name": "XXL" }
+       ]  
+ 
+     },
+     { 
+       "id": 62, 
+       "imageUrl": "/men/t-shirts/t-shirt3.webp", 
+       "title": "CLOUD DOWN HOOD", 
+       "color": "ORANGE RED", 
+       "price": 4200,
+       "sizes" : [
+         { "size_id": 1, "size_name": "XS" },
+         { "size_id": 2, "size_name": "S" },
+         { "size_id": 3, "size_name": "M" },
+         { "size_id": 4, "size_name": "L" },
+         { "size_id": 5, "size_name": "XL" },
+         { "size_id": 6, "size_name": "XXL" }
+       ]
+ 
+     },
+     { "id": 63, 
+       "imageUrl": "/men/t-shirts/t-shirt4.webp", 
+       "title": "CLOUD DOWN HOOD", 
+       "color": "ORANGE RED", 
+       "price": 4200,
+       "sizes" : [
+         { "size_id": 1, "size_name": "XS" },
+         { "size_id": 2, "size_name": "S" },
+         { "size_id": 3, "size_name": "M" },
+         { "size_id": 4, "size_name": "L" },
+         { "size_id": 5, "size_name": "XL" },
+         { "size_id": 6, "size_name": "XXL" }
+       ]  
+     },
+     {
+       "id": 64, 
+       "imageUrl": "/men/t-shirts/t-shirt5.webp", 
+       "title": "CLOUD DOWN HOOD", 
+       "color": "ORANGE RED", 
+       "price": 4200,
+       "sizes" : [
+         { "size_id": 1, "size_name": "XS" },
+         { "size_id": 2, "size_name": "S" },
+         { "size_id": 3, "size_name": "M" },
+         { "size_id": 4, "size_name": "L" },
+         { "size_id": 5, "size_name": "XL" },
+         { "size_id": 6, "size_name": "XXL" }
+       ]
+     },
+     { 
+       "id": 65, 
+       "imageUrl": "/men/t-shirts/t-shirt6.webp", 
+       "title": "CLOUD DOWN HOOD", 
+       "color": "ORANGE RED",
+       "price": 4200,
+       "sizes" : [
+         { "size_id": 1, "size_name": "XS" },
+         { "size_id": 2, "size_name": "S" },
+         { "size_id": 3, "size_name": "M" },
+         { "size_id": 4, "size_name": "L" },
+         { "size_id": 5, "size_name": "XL" },
+         { "size_id": 6, "size_name": "XXL" }
+       ] 
+     },
+     { 
+       "id": 66, 
+       "imageUrl": "/men/t-shirts/t-shirt7.webp", 
+       "title": "CLOUD DOWN HOOD", 
+       "color": "ORANGE RED", 
+       "price": 4200,
+       "sizes" : [
+         { "size_id": 1, "size_name": "XS" },
+         { "size_id": 2, "size_name": "S" },
+         { "size_id": 3, "size_name": "M" },
+         { "size_id": 4, "size_name": "L" },
+         { "size_id": 5, "size_name": "XL" },
+         { "size_id": 6, "size_name": "XXL" }
+       ]
+     },
+     { 
+       "id": 67, 
+       "imageUrl": "/men/t-shirts/t-shirt8.webp", 
+       "title": "CLOUD DOWN HOOD", 
+       "color": "ORANGE RED", 
+       "price": 4200,
+       "sizes" : [
+         { "size_id": 1, "size_name": "XS" },
+         { "size_id": 2, "size_name": "S" },
+         { "size_id": 3, "size_name": "M" },
+         { "size_id": 4, "size_name": "L" },
+         { "size_id": 5, "size_name": "XL" },
+         { "size_id": 6, "size_name": "XXL" }
+       ]
+     }
+ ]

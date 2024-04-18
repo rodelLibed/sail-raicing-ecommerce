@@ -1,0 +1,213 @@
+[
+    { 
+      "id":  106, 
+      "imageUrl": "/men/sailgp/sailgp1.webp", 
+      "title": "CLOUD DOWN HOOD",
+      "color": "ORANGE RED", 
+      "price": 4200,
+      "sizes" : [
+       { "size_id": 1, "size_name": "XS" },
+       { "size_id": 2, "size_name": "S" },
+       { "size_id": 3, "size_name": "M" },
+       { "size_id": 4, "size_name": "L" },
+       { "size_id": 5, "size_name": "XL" },
+       { "size_id": 6, "size_name": "XXL" }
+     ]  
+     },
+     { 
+       "id":  107, 
+       "imageUrl": "/men/sailgp/sailgp2.webp", 
+       "title": "CLOUD DOWN HOOD", 
+       "color": "ORANGE RED", 
+       "price": 4200,
+       "sizes" : [
+         { "size_id": 1, "size_name": "XS" },
+         { "size_id": 2, "size_name": "S" },
+         { "size_id": 3, "size_name": "M" },
+         { "size_id": 4, "size_name": "L" },
+         { "size_id": 5, "size_name": "XL" },
+         { "size_id": 6, "size_name": "XXL" }
+       ]  
+ 
+     },
+     { 
+       "id":  108, 
+       "imageUrl": "/men/sailgp/sailgp3.webp", 
+       "title": "CLOUD DOWN HOOD", 
+       "color": "ORANGE RED", 
+       "price": 4200,
+       "sizes" : [
+         { "size_id": 1, "size_name": "XS" },
+         { "size_id": 2, "size_name": "S" },
+         { "size_id": 3, "size_name": "M" },
+         { "size_id": 4, "size_name": "L" },
+         { "size_id": 5, "size_name": "XL" },
+         { "size_id": 6, "size_name": "XXL" }
+       ]
+ 
+     },
+     { "id":  109, 
+       "imageUrl": "/men/sailgp/sailgp4.webp", 
+       "title": "CLOUD DOWN HOOD", 
+       "color": "ORANGE RED", 
+       "price": 4200,
+       "sizes" : [
+         { "size_id": 1, "size_name": "XS" },
+         { "size_id": 2, "size_name": "S" },
+         { "size_id": 3, "size_name": "M" },
+         { "size_id": 4, "size_name": "L" },
+         { "size_id": 5, "size_name": "XL" },
+         { "size_id": 6, "size_name": "XXL" }
+       ]  
+     },
+     {
+       "id":  110, 
+       "imageUrl": "/men/sailgp/sailgp5.webp", 
+       "title": "CLOUD DOWN HOOD", 
+       "color": "ORANGE RED", 
+       "price": 4200,
+       "sizes" : [
+         { "size_id": 1, "size_name": "XS" },
+         { "size_id": 2, "size_name": "S" },
+         { "size_id": 3, "size_name": "M" },
+         { "size_id": 4, "size_name": "L" },
+         { "size_id": 5, "size_name": "XL" },
+         { "size_id": 6, "size_name": "XXL" }
+       ]
+     },
+     { 
+       "id": 111, 
+       "imageUrl": "/men/sailgp/sailgp6.webp", 
+       "title": "CLOUD DOWN HOOD", 
+       "color": "ORANGE RED",
+       "price": 4200,
+       "sizes" : [
+         { "size_id": 1, "size_name": "XS" },
+         { "size_id": 2, "size_name": "S" },
+         { "size_id": 3, "size_name": "M" },
+         { "size_id": 4, "size_name": "L" },
+         { "size_id": 5, "size_name": "XL" },
+         { "size_id": 6, "size_name": "XXL" }
+       ] 
+     },
+     { 
+       "id": 112, 
+       "imageUrl": "/men/sailgp/sailgp7.webp", 
+       "title": "CLOUD DOWN HOOD", 
+       "color": "ORANGE RED", 
+       "price": 4200,
+       "sizes" : [
+         { "size_id": 1, "size_name": "XS" },
+         { "size_id": 2, "size_name": "S" },
+         { "size_id": 3, "size_name": "M" },
+         { "size_id": 4, "size_name": "L" },
+         { "size_id": 5, "size_name": "XL" },
+         { "size_id": 6, "size_name": "XXL" }
+       ]
+     },
+     { 
+       "id": 113, 
+       "imageUrl": "/men/sailgp/sailgp8.webp", 
+       "title": "CLOUD DOWN HOOD", 
+       "color": "ORANGE RED", 
+       "price": 4200,
+       "sizes" : [
+         { "size_id": 1, "size_name": "XS" },
+         { "size_id": 2, "size_name": "S" },
+         { "size_id": 3, "size_name": "M" },
+         { "size_id": 4, "size_name": "L" },
+         { "size_id": 5, "size_name": "XL" },
+         { "size_id": 6, "size_name": "XXL" }
+       ]
+     },
+     { 
+       "id": 114,
+       "imageUrl": "/men/sailgp/sailgp9.webp", 
+       "title": "CLOUD DOWN HOOD", 
+       "color": "ORANGE RED", 
+       "price": 4200,
+       "sizes" : [
+         { "size_id": 1, "size_name": "XS" },
+         { "size_id": 2, "size_name": "S" },
+         { "size_id": 3, "size_name": "M" },
+         { "size_id": 4, "size_name": "L" },
+         { "size_id": 5, "size_name": "XL" },
+         { "size_id": 6, "size_name": "XXL" }
+       ] 
+     },
+     { 
+       "id": 115, 
+       "imageUrl": "/men/sailgp/sailgp10.webp", 
+       "title": "CLOUD DOWN HOOD", 
+       "color": "ORANGE RED", 
+       "price": 4200,
+       "sizes" : [
+         { "size_id": 1, "size_name": "XS" },
+         { "size_id": 2, "size_name": "S" },
+         { "size_id": 3, "size_name": "M" },
+         { "size_id": 4, "size_name": "L" },
+         { "size_id": 5, "size_name": "XL" },
+         { "size_id": 6, "size_name": "XXL" }
+       ]
+     },
+     {
+         "id": 116, 
+         "imageUrl": "/men/sailgp/sailgp11.webp", 
+         "title": "CLOUD DOWN HOOD", 
+         "color": "ORANGE RED", 
+         "price": 4200,
+         "sizes" : [
+             { "size_id": 1, "size_name": "XS" },
+             { "size_id": 2, "size_name": "S" },
+             { "size_id": 3, "size_name": "M" },
+             { "size_id": 4, "size_name": "L" },
+             { "size_id": 5, "size_name": "XL" },
+             { "size_id": 6, "size_name": "XXL" }
+           ]
+     },
+     {
+        "id": 117, 
+        "imageUrl": "/men/sailgp/sailgp12.webp", 
+        "title": "CLOUD DOWN HOOD", 
+        "color": "ORANGE RED", 
+        "price": 4200,
+        "sizes" : [
+            { "size_id": 1, "size_name": "XS" },
+            { "size_id": 2, "size_name": "S" },
+            { "size_id": 3, "size_name": "M" },
+            { "size_id": 4, "size_name": "L" },
+            { "size_id": 5, "size_name": "XL" },
+            { "size_id": 6, "size_name": "XXL" }
+          ]
+    },
+    {
+        "id": 118, 
+        "imageUrl": "/men/sailgp/sailgp13.webp", 
+        "title": "CLOUD DOWN HOOD", 
+        "color": "ORANGE RED", 
+        "price": 4200,
+        "sizes" : [
+            { "size_id": 1, "size_name": "XS" },
+            { "size_id": 2, "size_name": "S" },
+            { "size_id": 3, "size_name": "M" },
+            { "size_id": 4, "size_name": "L" },
+            { "size_id": 5, "size_name": "XL" },
+            { "size_id": 6, "size_name": "XXL" }
+          ]
+    },
+    {
+        "id": 119, 
+        "imageUrl": "/men/sailgp/sailgp14.webp", 
+        "title": "CLOUD DOWN HOOD", 
+        "color": "ORANGE RED", 
+        "price": 4200,
+        "sizes" : [
+            { "size_id": 1, "size_name": "XS" },
+            { "size_id": 2, "size_name": "S" },
+            { "size_id": 3, "size_name": "M" },
+            { "size_id": 4, "size_name": "L" },
+            { "size_id": 5, "size_name": "XL" },
+            { "size_id": 6, "size_name": "XXL" }
+          ]
+    }
+ ]
