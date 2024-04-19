@@ -15,7 +15,7 @@ export default function Cart1 ({
     return (
      <>
      <div className="h-[60vh] mt-32">
-     <div className="flex flex-col gap-3 items-center max-h-[50vh] overflow-y-auto scrollbar-none ">
+      <div className="flex flex-col gap-3 items-center max-h-[50vh] overflow-y-auto scrollbar-none ">
            <div className="text-center space-y-2" >
              <h1 className="text-black text-xl font-semibold">{items.title}</h1>
              <h6 className="text-black text-xs">{items.color}</h6>

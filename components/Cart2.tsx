@@ -6,7 +6,7 @@ import { Minus, Plus, X } from "lucide-react"
 
 
 export default function Cart2({cart2}: Cart2){
-    const { handlePaymentCart } = useShoppingCart()
+    const { handlePaymentCart, handleIncreaseQuantity, handleDecreaseQuantity } = useShoppingCart()
     return (
      <>
      
@@ -20,7 +20,7 @@ export default function Cart2({cart2}: Cart2){
             <img src={items.imageUrl} width={180} height={180} />
  
             <div className="flex flex-col gap-3 ">
-              <h5>1X - {items.title}</h5>
+              <h5> {items.quantity}X - {items.title}</h5>
                <div className="flex gap-10">
                    <div className="flex flex-col gap-1">
                        <span className="text-slate-600 text-xs font-medium">COLOR</span>
@@ -36,9 +36,9 @@ export default function Cart2({cart2}: Cart2){
                    <div className="flex-col">
                      <h6 className="text-xs font-medium text-slate-500">ITEM IS IN STOCK</h6>
                      <div className="flex gap-5">
-                       <Minus  className="text-slate-500 cursor-pointer" />
-                       <span>1</span>
-                       <Plus className="text-slate-500 cursor-pointer"/>
+                       <button disabled={items.quantity == 0} onClick={()=>handleDecreaseQuantity(items.id)} className="text-slate-500 cursor-pointer" ><Minus /></button>
+                       <span>{items.quantity}</span>
+                       <button onClick={()=>handleIncreaseQuantity(items.id)} className="text-slate-500 cursor-pointer" ><Plus  /></button>
                      </div>
                    </div>
                    <div className="flex-col">

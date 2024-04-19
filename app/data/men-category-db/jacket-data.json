@@ -5,6 +5,7 @@
     "title": "CLOUD DOWN HOOD", 
     "color": "ORANGE RED", 
     "price": 4200,
+    "quantity": 1,
     "sizes" : [
         { "size_id": 1, "size_name": "XS" },
         { "size_id": 2, "size_name": "S" },
@@ -20,6 +21,7 @@
      "title": "ARBR GORE TEX JACKET", 
      "color": "ORANGE RED", 
      "price": 4200,
+     "quantity": 1,
      "sizes" : [
       { "size_id": 1, "size_name": "XS" },
       { "size_id": 2, "size_name": "S" },
@@ -35,6 +37,7 @@
       "title": "ARBR JACKET",    
       "color": "ORANGE RED", 
       "price": 4200,
+      "quantity": 1,
       "sizes" : [
         { "size_id": 1, "size_name": "XS" },
         { "size_id": 2, "size_name": "S" },
@@ -53,6 +56,7 @@
      "title": "ARBR GORE TEX SPRAYTOP", 
      "color": "ORANGE RED", 
      "price": 4200,
+     "quantity": 1,
      "sizes" : [
       { "size_id": 1, "size_name": "XS" },
       { "size_id": 2, "size_name": "S" },
@@ -69,6 +73,7 @@
       "title": "ARBR TEAM GORE TEX PANT", 
       "color": "ORANGE RED",
        "price": 4200,
+       "quantity": 1,
        "sizes" : [
         { "size_id": 1, "size_name": "XS" },
         { "size_id": 2, "size_name": "S" },
@@ -84,6 +89,7 @@
        "title": "CHALLENGE REVERSIBLE JACKET", 
        "color": "ORANGE RED",
        "price": 4200,
+       "quantity": 1,
        "sizes" : [
         { "size_id": 1, "size_name": "XS" },
         { "size_id": 2, "size_name": "S" },
@@ -99,6 +105,7 @@
     "title": "CHALLENGE REVERSIBLE JACKET",
     "color": "ORANGE RED", 
     "price": 4200,
+    "quantity": 1,
     "sizes" : [
       { "size_id": 1, "size_name": "XS" },
       { "size_id": 2, "size_name": "S" },
@@ -114,6 +121,7 @@
       "title": "CHALLENGE REVERSIBLE VEST",
       "color": "ORANGE RED",
       "price": 4200,
+      "quantity": 1,
       "sizes" : [
         { "size_id": 1, "size_name": "XS" },
         { "size_id": 2, "size_name": "S" },

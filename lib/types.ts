@@ -9,6 +9,7 @@ export type Sizes = {
     title: string
     color: string
     price: number
+    quantity: number
     sizes?:Sizes[]
   }
   

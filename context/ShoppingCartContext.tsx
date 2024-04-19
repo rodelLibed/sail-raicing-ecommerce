@@ -22,18 +22,18 @@ export default function MenShoppingCartProvider({children} : ShoppingCartProps){
     const [openCart, setOpenCart] = useState(false)
     const [active, isActive] = useState(0)
     const [paymentCart, setPaymentCart] = useState(true)
+
      
     const handleAddToCart = async (item : CartItems) => {
        const productItem = addCartItems.find((items) => items.id === item.id)
        if(productItem){
          setLoading(true)
          await new Promise (resolve => setTimeout(resolve, 3000))
-         setAddCartItems(addCartItems.map((items)=> {
-             return items.id === item.id ? {...items, price: items.price + 4200} : items
+         setAddCartItems(addCartItems.map(items => {
+             return items.id === item.id ? {...items, price: items.price + item.price} : items
          }))
          setLoading(false)
          setOpenCart(true)
-         console.log(productItem)
        }else{
          setLoading(true)
          await new Promise (resolve => setTimeout(resolve, 3000))
@@ -56,9 +56,28 @@ export default function MenShoppingCartProvider({children} : ShoppingCartProps){
        setPaymentCart(!paymentCart)
     }
 
+    const handleIncreaseQuantity = (id:number) => {
+        const productQuantity = addCartItems.find((items)=>items.id === id)   
+        if(productQuantity){
+          setAddCartItems(addCartItems.map((items) => {
+            return items.id === id ? {...items, quantity: items.quantity + 1} : items
+         }))
+        }
+    }
+
+    const handleDecreaseQuantity = (id:number) => {
+      const productQuantity = addCartItems.find((items)=>items.id === id)   
+      if(productQuantity){
+        setAddCartItems(addCartItems.map((items) => {
+          return items.id === id ? {...items, quantity: items.quantity - 1} : items
+       }))
+      }
+    }
+
     const handleActiveButton = (id:number) => {
       isActive(id)
     }
+
 
 
      return (
@@ -71,7 +90,10 @@ export default function MenShoppingCartProvider({children} : ShoppingCartProps){
          handleActiveButton, 
          active, 
          paymentCart, 
-         handlePaymentCart
+         handlePaymentCart,
+         handleIncreaseQuantity,
+         handleDecreaseQuantity
+        
           }}>
             {children}
         </ShoppingCartContext.Provider>

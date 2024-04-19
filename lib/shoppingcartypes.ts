@@ -3,11 +3,14 @@ export type ShoppingCart = {
     handleAddToCart: (item: CartItems) => void
     handleOpenCart: () => void
     handleActiveButton: (id:number) => void
+    handlePaymentCart: () => void
+    handleIncreaseQuantity: (id:number) => void
+    handleDecreaseQuantity: (id:number) => void
     active: number
     loading: boolean
     openCart: boolean
     paymentCart: boolean
-    handlePaymentCart: () => void
+
   }
   
  export type Sizes = {
@@ -22,6 +25,7 @@ export type ShoppingCart = {
      title: string
      color: string
      price: number
+     quantity: number
      sizes?: Sizes[]
      
   }
