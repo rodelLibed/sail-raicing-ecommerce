@@ -39,7 +39,7 @@ const SheetComponent = ({sheet, className}: SheetDetails) => {
             <SheetClose onClick={handleOpenCart} className="text-black font-extrabold absolute top-5 right-5"><X /></SheetClose>
             {paymentCart ? 
              <>
-              {openCart ? <Cart2  cart2={addCartItems} /> :
+              {openCart ? <Cart2 cart2={addCartItems} /> :
               <Cart1
               items={sheet} 
               spinner={loading}

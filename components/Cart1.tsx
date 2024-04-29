@@ -29,7 +29,7 @@ export default function Cart1 ({
             {items.sizes?.map((size)=> {
                return (
                 <Button key={size.size_id} onClick={()=>handleActiveButton(size.size_id)}
-                 className={`${active === size.size_id ? 'bg-black text-white': 'bg-white text-black' } 
+                 className={`${active === size.size_id ? 'bg-black text-white' : 'bg-white text-black' } 
                   hover:bg-black hover:text-white transition ease-in-out duration-200 border border-black 
                    w-5 h-5 p-[14px] md:p-4 `} size="sm">
                     {size.size_name}

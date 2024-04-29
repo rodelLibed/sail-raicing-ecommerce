@@ -4,6 +4,7 @@ import { createContext, useContext,  useState } from "react"
 import { type ShoppingCart, CartItems } from "@/lib/shoppingcartypes"
 
 
+
 type ShoppingCartProps = {
    children: React.ReactNode
 }
@@ -24,24 +25,33 @@ export default function MenShoppingCartProvider({children} : ShoppingCartProps){
     const [paymentCart, setPaymentCart] = useState(true)
 
      
-    const handleAddToCart = async (item : CartItems) => {
-       const productItem = addCartItems.find((items) => items.id === item.id)
+    const handleAddToCart = async (itemProps : CartItems) => {
+       const productItem = addCartItems.find((items) => items.id === itemProps.id)
        if(productItem){
          setLoading(true)
          await new Promise (resolve => setTimeout(resolve, 3000))
          setAddCartItems(addCartItems.map(items => {
-             return items.id === item.id ? {...items, price: items.price + item.price} : items
+             return items.id === itemProps.id ? {...items, price: items.price + itemProps.price, quantity: items.quantity + 1} : items
          }))
          setLoading(false)
          setOpenCart(true)
        }else{
          setLoading(true)
          await new Promise (resolve => setTimeout(resolve, 3000))
-         setAddCartItems([...addCartItems, item])
+         setAddCartItems([...addCartItems, {...itemProps,  quantity: 1}])
          setLoading(false)
          setOpenCart(true)
        } 
     
+    }
+
+    const handleRemoveCart = (item:CartItems) => {
+       const productItem = addCartItems.find((items) => items.id === item.id)
+       if(productItem){
+          setAddCartItems(addCartItems.filter((items)=> items.id !== item.id))
+       } else{
+          setAddCartItems([...addCartItems, item])
+       }
     }
 
     const handleOpenCart = () => {
@@ -56,22 +66,22 @@ export default function MenShoppingCartProvider({children} : ShoppingCartProps){
        setPaymentCart(!paymentCart)
     }
 
-    const handleIncreaseQuantity = (id:number) => {
-        const productQuantity = addCartItems.find((items)=>items.id === id)   
-        if(productQuantity){
-          setAddCartItems(addCartItems.map((items) => {
-            return items.id === id ? {...items, quantity: items.quantity + 1} : items
-         }))
+    const handleIncreaseQuantity = (itemProps:CartItems) => {
+        const productItem = addCartItems.find((items)=> items.id === itemProps.id)
+        if(productItem){
+         const originalPrice = itemProps.price
+          setAddCartItems(addCartItems.map(items => {
+            return items.id === itemProps.id ? {...items, price: items.price + originalPrice, quantity: items.quantity + 1} : items
+        })) 
         }
+               
     }
 
-    const handleDecreaseQuantity = (id:number) => {
-      const productQuantity = addCartItems.find((items)=>items.id === id)   
-      if(productQuantity){
+    const handleDecreaseQuantity = (itemProps: CartItems) => { 
         setAddCartItems(addCartItems.map((items) => {
-          return items.id === id ? {...items, quantity: items.quantity - 1} : items
+          return items.id === itemProps.id ? {...items, quantity: items.quantity - 1} : items
        }))
-      }
+      
     }
 
     const handleActiveButton = (id:number) => {
@@ -92,8 +102,8 @@ export default function MenShoppingCartProvider({children} : ShoppingCartProps){
          paymentCart, 
          handlePaymentCart,
          handleIncreaseQuantity,
-         handleDecreaseQuantity
-        
+         handleDecreaseQuantity,
+         handleRemoveCart
           }}>
             {children}
         </ShoppingCartContext.Provider>

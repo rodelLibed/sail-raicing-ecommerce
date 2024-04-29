@@ -1,17 +1,20 @@
 export type ShoppingCart = {
     addCartItems: CartItems[]
     handleAddToCart: (item: CartItems) => void
+    handleRemoveCart: (item:CartItems) => void
     handleOpenCart: () => void
     handleActiveButton: (id:number) => void
     handlePaymentCart: () => void
-    handleIncreaseQuantity: (id:number) => void
-    handleDecreaseQuantity: (id:number) => void
+    handleIncreaseQuantity: (itemProps:CartItems) => void
+    handleDecreaseQuantity: (itemProps:CartItems) => void
     active: number
     loading: boolean
     openCart: boolean
     paymentCart: boolean
 
   }
+
+
   
  export type Sizes = {
      size_id: number

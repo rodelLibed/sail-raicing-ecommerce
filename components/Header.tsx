@@ -8,6 +8,7 @@ import Link from 'next/link'
 import { Search } from 'lucide-react'
 
 import ContentSheetNav from './ContentSheetNav';
+import ShoppingCart from './ShoppingCart'
 
 const Header = () => {
 
@@ -26,6 +27,7 @@ const Header = () => {
 
          <div className='flex items-center gap-3 md:gap-3'>
             <Search className="text-white w-5 h-5 cursor-pointer"/>
+            <ShoppingCart />
             <ContentSheetNav/>
          </div>
       

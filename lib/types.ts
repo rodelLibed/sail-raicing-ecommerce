@@ -1,3 +1,5 @@
+import React from "react"
+
 export type Sizes = {
     size_id: number
     size_name: string
@@ -21,6 +23,7 @@ export type Cart1 = {
   }
   export type Cart2 = {
     cart2: Details[]
+   
   
   }
   
