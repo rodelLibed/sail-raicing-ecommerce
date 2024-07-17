@@ -1,11 +1,12 @@
 [
     { 
-      "id": 18, 
-      "imageUrl": "/men/technical-sailing/sailing1.webp", 
-      "title": "ORCA JACKET",
-      "color": "CARBON", 
-      "price": 4200,
+      "id": 28, 
+      "imageUrl": "/product-women-images/jackets/w-jacket1.webp", 
+      "title": "W CLOUD DOWN HOOD",
+      "color": "RED CHILI", 
+      "price":  4500,
       "quantity": 1,
+      "totalPrice": 4500,
       "sizes" : [
        { "size_id": 1, "size_name": "XS" },
        { "size_id": 2, "size_name": "S" },
@@ -16,12 +17,13 @@
      ]  
      },
      { 
-       "id": 19, 
-       "imageUrl": "/men/technical-sailing/sailing2.webp", 
-       "title": "ORCA PACLITE SPRAYTOP", 
-       "color": "CARBON", 
-       "price": 4200,
+       "id": 29, 
+       "imageUrl": "/product-women-images/jackets/w-jacket2.webp", 
+       "title": "W CLOUD DOWN HOOD", 
+       "color": "RED DAHLIA", 
+       "price": 4500,
        "quantity": 1,
+       "totalPrice": 4500,
        "sizes" : [
          { "size_id": 1, "size_name": "XS" },
          { "size_id": 2, "size_name": "S" },
@@ -33,12 +35,13 @@
  
      },
      { 
-       "id": 20, 
-       "imageUrl": "/men/technical-sailing/sailing3.webp", 
-       "title": "ORCA BIB PLANT", 
-       "color": "CARBON", 
-       "price": 4200,
+       "id": 30, 
+       "imageUrl": "/product-women-images/jackets/w-jacket3.webp", 
+       "title": "W CLOUD DOWN HOOD", 
+       "color": "ICE PINK", 
+       "price": 2500,
        "quantity": 1,
+       "totalPrice": 2500,
        "sizes" : [
          { "size_id": 1, "size_name": "XS" },
          { "size_id": 2, "size_name": "S" },
@@ -49,12 +52,13 @@
        ]
  
      },
-     { "id": 21, 
-       "imageUrl": "/men/technical-sailing/sailing4.webp", 
-       "title": "REFERENCE SPRAYTOP", 
-       "color": "STORM BLUE", 
-       "price": 4200,
+     { "id": 31, 
+       "imageUrl": "/product-women-images/jackets/w-jacket4.webp", 
+       "title": "W CLOUD DOWN HOOD", 
+       "color": "DARK NAVY", 
+       "price": 4500,
        "quantity": 1,
+       "totalPrice": 4500,
        "sizes" : [
          { "size_id": 1, "size_name": "XS" },
          { "size_id": 2, "size_name": "S" },
@@ -65,12 +69,13 @@
        ]  
      },
      {
-       "id": 22, 
-       "imageUrl": "/men/technical-sailing/sailing5.webp", 
-       "title": "REFERENCE LIGHT JACKET", 
-       "color": "STORM BLUE", 
+       "id": 32, 
+       "imageUrl": "/product-women-images/jackets/w-jacket5.webp", 
+       "title": "W CLOUD DOWN HOOD", 
+       "color": "TEEL GREEN", 
        "price": 4200,
        "quantity": 1,
+       "totalPrice": 4200,
        "sizes" : [
          { "size_id": 1, "size_name": "XS" },
          { "size_id": 2, "size_name": "S" },
@@ -81,115 +86,122 @@
        ]
      },
      { 
-       "id": 23, 
-       "imageUrl": "/men/technical-sailing/sailing6.webp", 
-       "title": "REFERENCE LIGHT JACKET", 
-       "color": "STORM BLUE",
+       "id": 33, 
+       "imageUrl": "/product-women-images/jackets/w-jacket6.webp", 
+       "title": "W CLOUD DOWN HOOD", 
+       "color": "DUSTY GREEN",
        "price": 4200,
-       "quantity": 1,
-       "sizes" : [
-         { "size_id": 1, "size_name": "XS" },
-         { "size_id": 2, "size_name": "S" },
-         { "size_id": 3, "size_name": "M" },
-         { "size_id": 4, "size_name": "L" },
-         { "size_id": 5, "size_name": "XL" },
-         { "size_id": 6, "size_name": "XXL" }
-       ] 
-     },
-     { 
-       "id": 24, 
-       "imageUrl": "/men/technical-sailing/sailing7.webp", 
-       "title": "REFERENCE PANT", 
-       "color": "STORM BLUE", 
-       "price": 4200,
-       "quantity": 1,
-       "sizes" : [
-         { "size_id": 1, "size_name": "XS" },
-         { "size_id": 2, "size_name": "S" },
-         { "size_id": 3, "size_name": "M" },
-         { "size_id": 4, "size_name": "L" },
-         { "size_id": 5, "size_name": "XL" },
-         { "size_id": 6, "size_name": "XXL" }
-       ]
-     },
-     { 
-       "id": 25, 
-       "imageUrl": "/men/technical-sailing/sailing8.webp", 
-       "title": "REFERENCE SPRAYTOP", 
-       "color": "CARBON", 
-       "price": 4200,
-       "quantity": 1,
-       "sizes" : [
-         { "size_id": 1, "size_name": "XS" },
-         { "size_id": 2, "size_name": "S" },
-         { "size_id": 3, "size_name": "M" },
-         { "size_id": 4, "size_name": "L" },
-         { "size_id": 5, "size_name": "XL" },
-         { "size_id": 6, "size_name": "XXL" }
-       ]
-     },
-     { 
-       "id": 26,
-       "imageUrl": "/men/technical-sailing/sailing9.webp", 
-       "title": "REFERENCE LIGHT SHORTS", 
-       "color": "GRAPHITE", 
-       "price": 4200,
-       "quantity": 1,
-       "sizes" : [
-         { "size_id": 1, "size_name": "XS" },
-         { "size_id": 2, "size_name": "S" },
-         { "size_id": 3, "size_name": "M" },
-         { "size_id": 4, "size_name": "L" },
-         { "size_id": 5, "size_name": "XL" },
-         { "size_id": 6, "size_name": "XXL" }
-       ] 
-     },
-     { 
-       "id": 27, 
-       "imageUrl": "/men/technical-sailing/sailing10.webp", 
-       "title": "REFERENCE LUMBER", 
-       "color": "CARBON", 
-       "price": 4200,
-       "quantity": 1,
-       "sizes" : [
-         { "size_id": 1, "size_name": "XS" },
-         { "size_id": 2, "size_name": "S" },
-         { "size_id": 3, "size_name": "M" },
-         { "size_id": 4, "size_name": "L" },
-         { "size_id": 5, "size_name": "XL" },
-         { "size_id": 6, "size_name": "XXL" }
-       ]
-     },
-     {
-         "id": 28, 
-         "imageUrl": "/men/technical-sailing/sailing11.webp", 
-         "title": "REFERENCE PANT", 
-         "color": "CARBON", 
-         "price": 4200,
-         "quantity": 1,
-         "sizes" : [
-             { "size_id": 1, "size_name": "XS" },
-             { "size_id": 2, "size_name": "S" },
-             { "size_id": 3, "size_name": "M" },
-             { "size_id": 4, "size_name": "L" },
-             { "size_id": 5, "size_name": "XL" },
-             { "size_id": 6, "size_name": "XXL" }
-           ]
-     },
-     {
-        "id": 29, 
-        "imageUrl": "/men/technical-sailing/sailing12.webp", 
-        "title": "REFERENCE LIGHT JACKET", 
-        "color": "CARBON", 
-        "price": 4200,
         "quantity": 1,
+        "totalPrice": 4200,
+       "sizes" : [
+         { "size_id": 1, "size_name": "XS" },
+         { "size_id": 2, "size_name": "S" },
+         { "size_id": 3, "size_name": "M" },
+         { "size_id": 4, "size_name": "L" },
+         { "size_id": 5, "size_name": "XL" },
+         { "size_id": 6, "size_name": "XXL" }
+       ] 
+     },
+     { 
+       "id": 34, 
+       "imageUrl": "/product-women-images/jackets/w-jacket7.webp", 
+       "title": "W CLOUD DOWN HOOD", 
+       "color": "CARBON", 
+       "price": 4500,
+        "quantity": 1,
+        "totalPrice": 4500,
+       "sizes" : [
+         { "size_id": 1, "size_name": "XS" },
+         { "size_id": 2, "size_name": "S" },
+         { "size_id": 3, "size_name": "M" },
+         { "size_id": 4, "size_name": "L" },
+         { "size_id": 5, "size_name": "XL" },
+         { "size_id": 6, "size_name": "XXL" }
+       ]
+     },
+     { 
+       "id": 35, 
+       "imageUrl": "/product-women-images/jackets/w-jacket8.webp", 
+       "title": "W RACE DOWN JACKET", 
+       "color": "ICE PINK", 
+       "price": 4500,
+        "quantity": 1,
+        "totalPrice": 4500,
+       "sizes" : [
+         { "size_id": 1, "size_name": "XS" },
+         { "size_id": 2, "size_name": "S" },
+         { "size_id": 3, "size_name": "M" },
+         { "size_id": 4, "size_name": "L" },
+         { "size_id": 5, "size_name": "XL" },
+         { "size_id": 6, "size_name": "XXL" }
+       ]
+     },
+     { 
+       "id": 36,
+       "imageUrl": "/product-women-images/jackets/w-jacket9.webp", 
+       "title": "W CLOUD DOWN HOOD", 
+       "color": "WHITE", 
+       "price": 4500,
+       "quantity": 1,
+       "totalPrice": 4500,
+       "sizes" : [
+         { "size_id": 1, "size_name": "XS" },
+         { "size_id": 2, "size_name": "S" },
+         { "size_id": 3, "size_name": "M" },
+         { "size_id": 4, "size_name": "L" },
+         { "size_id": 5, "size_name": "XL" },
+         { "size_id": 6, "size_name": "XXL" }
+       ] 
+     },
+     { 
+       "id": 37,
+       "imageUrl": "/product-women-images/jackets/w-jacket10.webp", 
+       "title": "W RACE EDITION DOWN COAT", 
+       "color": "BLUE", 
+       "price": 4500,
+       "quantity": 1,
+       "totalPrice": 4500,
+       "sizes" : [
+         { "size_id": 1, "size_name": "XS" },
+         { "size_id": 2, "size_name": "S" },
+         { "size_id": 3, "size_name": "M" },
+         { "size_id": 4, "size_name": "L" },
+         { "size_id": 5, "size_name": "XL" },
+         { "size_id": 6, "size_name": "XXL" }
+       ] 
+     },
+     { 
+        "id": 38,
+        "imageUrl": "/product-women-images/jackets/w-jacket11.webp", 
+        "title": "W RACE EDITION DOWN COAT", 
+        "color": "DUSTY GREEN", 
+        "price": 4500,
+        "quantity": 1,
+        "totalPrice": 4500,
         "sizes" : [
-            { "size_id": 1, "size_name": "XS" },
-            { "size_id": 2, "size_name": "S" },
-            { "size_id": 3, "size_name": "M" },
-            { "size_id": 4, "size_name": "L" },
-            { "size_id": 5, "size_name": "XL" },
-            { "size_id": 6, "size_name": "XXL" }
-          ]
-    }
+          { "size_id": 1, "size_name": "XS" },
+          { "size_id": 2, "size_name": "S" },
+          { "size_id": 3, "size_name": "M" },
+          { "size_id": 4, "size_name": "L" },
+          { "size_id": 5, "size_name": "XL" },
+          { "size_id": 6, "size_name": "XXL" }
+        ] 
+      },
+      { 
+        "id": 39,
+        "imageUrl": "/product-women-images/jackets/w-jacket12.webp", 
+        "title": "W RACE EDITION DOWN COAT", 
+        "color": "CARBON", 
+        "price": 4500,
+        "quantity": 1,
+        "totalPrice": 4500,
+        "sizes" : [
+          { "size_id": 1, "size_name": "XS" },
+          { "size_id": 2, "size_name": "S" },
+          { "size_id": 3, "size_name": "M" },
+          { "size_id": 4, "size_name": "L" },
+          { "size_id": 5, "size_name": "XL" },
+          { "size_id": 6, "size_name": "XXL" }
+        ] 
+      }
  ]

@@ -17,7 +17,7 @@ export default function PayMentCart(){
                 <h1 className="text-black font-bold text-xl">Your Information</h1> 
                 <div className="flex flex-col gap-5 h-[200px] ">
                     <Input className="focus-visible:ring-0 rounded-none border border-black" type="text" placeholder="Enter your name" />
-                    <Input className="focus-visible:ring-0 rounded-none border border-black" type="text" placeholder="Enter your email" />
+                    <Input className="focus-visible:ring-0 rounded-none border border-black" type="email" placeholder="Enter your email" />
                     <Input className="focus-visible:ring-0 rounded-none border border-black" type="text" placeholder="Enter your postal code" />
                 </div> 
               </div>

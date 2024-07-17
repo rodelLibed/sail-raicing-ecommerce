@@ -1,11 +1,12 @@
 [
     { 
-      "id": 91, 
-      "imageUrl": "/men/swimwear/swimwear1.webp", 
-      "title": "BOWMAN LOGO VOLLEY",
-      "color": "DRY SAND", 
-      "price": 4200,
+      "id": 58, 
+      "imageUrl": "/product-women-images/w-sailgp/w-sailgp1.webp", 
+      "title": "CLOUD DOWN HOOD",
+      "color": "ORANGE RED", 
+      "price":  4500,
       "quantity": 1,
+      "totalPrice": 4500,
       "sizes" : [
        { "size_id": 1, "size_name": "XS" },
        { "size_id": 2, "size_name": "S" },
@@ -16,12 +17,13 @@
      ]  
      },
      { 
-       "id": 92, 
-       "imageUrl": "/men/swimwear/swimwear2.webp", 
-       "title": "BOWMAN LOGO VOLLEY", 
-       "color": "ORANGE SPRING", 
-       "price": 4200,
+       "id": 59, 
+       "imageUrl": "/product-women-images/w-sailgp/w-sailgp2.webp", 
+       "title": "CLOUD DOWN HOOD", 
+       "color": "ORANGE RED", 
+       "price": 4500,
        "quantity": 1,
+       "totalPrice": 4500,
        "sizes" : [
          { "size_id": 1, "size_name": "XS" },
          { "size_id": 2, "size_name": "S" },
@@ -33,12 +35,13 @@
  
      },
      { 
-       "id": 93, 
-       "imageUrl": "/men/swimwear/swimwear3.webp", 
-       "title": "BOWMAN LOGO VOLLEY", 
-       "color": "DARK NAVY", 
-       "price": 4200,
+       "id": 60, 
+       "imageUrl": "/product-women-images/w-sailgp/w-sailgp3.webp", 
+       "title": "CLOUD DOWN HOOD", 
+       "color": "ORANGE RED", 
+       "price": 2500,
        "quantity": 1,
+       "totalPrice": 2500,
        "sizes" : [
          { "size_id": 1, "size_name": "XS" },
          { "size_id": 2, "size_name": "S" },
@@ -49,12 +52,13 @@
        ]
  
      },
-     { "id": 94, 
-       "imageUrl": "/men/swimwear/swimwear4.webp", 
-       "title": "BOWMAN LOGO VOLLEY", 
-       "color": "DARK", 
-       "price": 4200,
+     { "id": 61, 
+       "imageUrl": "/product-women-images/w-sailgp/w-sailgp4.webp", 
+       "title": "CLOUD DOWN HOOD", 
+       "color": "ORANGE RED", 
+       "price": 4500,
        "quantity": 1,
+       "totalPrice": 4500,
        "sizes" : [
          { "size_id": 1, "size_name": "XS" },
          { "size_id": 2, "size_name": "S" },
@@ -65,12 +69,13 @@
        ]  
      },
      {
-       "id": 95, 
-       "imageUrl": "/men/swimwear/swimwear5.webp", 
-       "title": "RACE TECH VOLLEY", 
-       "color": "SLALTE BEIGE", 
+       "id": 62, 
+       "imageUrl": "/product-women-images/w-sailgp/w-sailgp5.webp", 
+       "title": "CLOUD DOWN HOOD", 
+       "color": "ORANGE RED", 
        "price": 4200,
        "quantity": 1,
+       "totalPrice": 4200,
        "sizes" : [
          { "size_id": 1, "size_name": "XS" },
          { "size_id": 2, "size_name": "S" },
@@ -81,12 +86,13 @@
        ]
      },
      { 
-       "id": 96, 
-       "imageUrl": "/men/swimwear/swimwear6.webp", 
-       "title": "RACE TECH VOLLEY", 
-       "color": "WARM BEIGE",
+       "id": 63, 
+       "imageUrl": "/product-women-images/w-sailgp/w-sailgp6.webp", 
+       "title": "CLOUD DOWN HOOD", 
+       "color": "ORANGE RED",
        "price": 4200,
-       "quantity": 1,
+        "quantity": 1,
+        "totalPrice": 4200,
        "sizes" : [
          { "size_id": 1, "size_name": "XS" },
          { "size_id": 2, "size_name": "S" },
@@ -97,12 +103,13 @@
        ] 
      },
      { 
-       "id": 97, 
-       "imageUrl": "/men/swimwear/swimwear7.webp", 
-       "title": "RACE TECH VOLLEY", 
-       "color": "YELLOW GOLD", 
-       "price": 4200,
-       "quantity": 1,
+       "id": 64, 
+       "imageUrl": "/product-women-images/w-sailgp/w-sailgp7.webp", 
+       "title": "CLOUD DOWN HOOD", 
+       "color": "ORANGE RED", 
+       "price": 4500,
+        "quantity": 1,
+        "totalPrice": 4500,
        "sizes" : [
          { "size_id": 1, "size_name": "XS" },
          { "size_id": 2, "size_name": "S" },
@@ -113,12 +120,13 @@
        ]
      },
      { 
-       "id": 98, 
-       "imageUrl": "/men/swimwear/swimwear8.webp", 
-       "title": "RACE TECH VOLLEY", 
-       "color": "NAVY", 
-       "price": 4200,
-       "quantity": 1,
+       "id": 65, 
+       "imageUrl": "/product-women-images/w-sailgp/w-sailgp8.webp", 
+       "title": "CLOUD DOWN HOOD", 
+       "color": "ORANGE RED", 
+       "price": 4500,
+        "quantity": 1,
+        "totalPrice": 4500,
        "sizes" : [
          { "size_id": 1, "size_name": "XS" },
          { "size_id": 2, "size_name": "S" },
@@ -129,12 +137,13 @@
        ]
      },
      { 
-       "id": 99,
-       "imageUrl": "/men/swimwear/swimwear9.webp", 
-       "title": "RACE TECH VOLLEY", 
-       "color": "FRONT GREY", 
-       "price": 4200,
+       "id": 66,
+       "imageUrl": "/product-women-images/w-sailgp/w-sailgp9.webp", 
+       "title": "CLOUD DOWN HOOD", 
+       "color": "ORANGE RED", 
+       "price": 4500,
        "quantity": 1,
+       "totalPrice": 4500,
        "sizes" : [
          { "size_id": 1, "size_name": "XS" },
          { "size_id": 2, "size_name": "S" },
@@ -143,5 +152,22 @@
          { "size_id": 5, "size_name": "XL" },
          { "size_id": 6, "size_name": "XXL" }
        ] 
-     }
+     },
+     { 
+        "id": 67,
+        "imageUrl": "/product-women-images/w-sailgp/w-sailgp10.webp", 
+        "title": "CLOUD DOWN HOOD", 
+        "color": "ORANGE RED", 
+        "price": 4500,
+        "quantity": 1,
+        "totalPrice": 4500,
+        "sizes" : [
+          { "size_id": 1, "size_name": "XS" },
+          { "size_id": 2, "size_name": "S" },
+          { "size_id": 3, "size_name": "M" },
+          { "size_id": 4, "size_name": "L" },
+          { "size_id": 5, "size_name": "XL" },
+          { "size_id": 6, "size_name": "XXL" }
+        ] 
+      }
  ]

@@ -1,8 +1,11 @@
+"use client"
 import Image from "next/image"
 import SeparatorComponent from "@/components/Seperator"
-
+import GridCardComponent from "@/components/GridCardComponent"
+import storeItems from "@/app/data/women-category-db/jackets-data.json"
+import { useState } from "react"
 const WomenComponent = () => {
-    
+    const [data] = useState(storeItems)
 
   return (
     <main>
@@ -41,7 +44,7 @@ const WomenComponent = () => {
 
             {/* Product Section */}
             <section >
-                  <GridCardComponent />
+                  <GridCardComponent cardData={data} />
             </section>
     </main>
   )
@@ -49,41 +52,4 @@ const WomenComponent = () => {
 
 export default WomenComponent
 
-const GridCardComponent = () => {
-  const cardImage = [
-    { imageUrl: "/product-women-images/w-jacket1.webp", title: "W CLOUD DOWN HOOD", color: "ORANGE RED", price: "P.4200" },
-    { imageUrl: "/product-women-images/w-jacket2.webp", title: "W CLOUD DOWN HOOD", color: "ORANGE RED", price: "P.4200"  },
-    { imageUrl: "/product-women-images/w-jacket3.webp", title: "W CLOUD DOWN HOOD", color: "ORANGE RED", price: "P.4200"},
-    { imageUrl: "/product-women-images/w-jacket4.webp", title: "W CLOUD DOWN HOOD", color: "ORANGE RED", price: "P.4200"  },
-    { imageUrl: "/product-women-images/w-jacket5.webp", title: "W CLOUD DOWN HOOD", color: "ORANGE RED", price: "P.4200"  },
-    { imageUrl: "/product-women-images/w-jacket6.webp", title: "W CLOUD DOWN HOOD", color: "ORANGE RED", price: "P.4200"  },
-    { imageUrl: "/product-women-images/w-jacket7.webp", title: "W CLOUD DOWN HOOD", color: "ORANGE RED", price: "P.4200"  },
-    { imageUrl: "/product-women-images/w-jacket8.webp", title: "W CLOUD DOWN HOOD", color: "ORANGE RED", price: "P.4200"  } 
-  ]
-  return (
-     <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-7 px-3">
-          
-              {cardImage.map((details, idx)=>{
-                  return (
-                    <div  key={idx} className="flex flex-col mt-14">
-                      <div className="relative h-[300px]">
-                          <Image
-                          alt="Product Details"
-                          src={details.imageUrl}
-                          fill
-                          className="object-cover"
-                          />
-                      </div>
-                      <div className="text-center mt-10">
-                        <h1 className=" text-white text-lg font-medium ">{details.title}</h1>
-                         <h6 className="text-white text-sm">{details.color}</h6>
-                         <span className="text-white text-sm">{details.price}</span>
-                      </div>
-                   </div>
-                  )
-              })}
-          
-     </div>
-  )
-}
 

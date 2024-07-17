@@ -24,7 +24,7 @@ const AccessoriesComponent = () => {
                   }}
                 />
                 </div>
-
+              
                 <div className="
                       flex uppercase justify-start items-center
                       h-10 whitespace-nowrap overflow-auto md:overflow-hidden 

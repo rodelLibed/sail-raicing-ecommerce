@@ -1,4 +1,4 @@
-import React from "react"
+
 
 export type Sizes = {
     size_id: number
@@ -12,21 +12,21 @@ export type Sizes = {
     color: string
     price: number
     quantity: number
+    totalPrice?: number
     sizes?:Sizes[]
-  }
+}
   
 export type Cart1 = {
     OnCart: (items: Details) => void
     spinner: boolean
     items: Details
   
-  }
+}
   export type Cart2 = {
     cart2: Details[]
-   
   
   }
-  
+
  export type SheetDetails = {
     sheet: Details 
     className: string
@@ -35,4 +35,13 @@ export type Cart1 = {
   export type GridCardData = {
      cardData: Details[]
   }
+
+  export type Quantity = {
+    details:Details
+  }
+
+
+
+
+
   

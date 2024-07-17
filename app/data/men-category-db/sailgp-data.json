@@ -2,8 +2,8 @@
     { 
       "id":  106, 
       "imageUrl": "/men/sailgp/sailgp1.webp", 
-      "title": "CLOUD DOWN HOOD",
-      "color": "ORANGE RED", 
+      "title": "AUSTRALIA SAILGP ZIP HOOD",
+      "color": "CARBON", 
       "price": 4200,
       "quantity": 1,
       "sizes" : [
@@ -18,8 +18,8 @@
      { 
        "id":  107, 
        "imageUrl": "/men/sailgp/sailgp2.webp", 
-       "title": "CLOUD DOWN HOOD", 
-       "color": "ORANGE RED", 
+       "title": "AUSTRALIA SAILGP POLO", 
+       "color": "CARBON", 
        "price": 4200,
        "quantity": 1,
        "sizes" : [
@@ -35,8 +35,8 @@
      { 
        "id":  108, 
        "imageUrl": "/men/sailgp/sailgp3.webp", 
-       "title": "CLOUD DOWN HOOD", 
-       "color": "ORANGE RED", 
+       "title": "AUSTRALIA SAILGP TEE", 
+       "color": "CARBON", 
        "price": 4200,
        "quantity": 1,
        "sizes" : [
@@ -51,8 +51,8 @@
      },
      { "id":  109, 
        "imageUrl": "/men/sailgp/sailgp4.webp", 
-       "title": "CLOUD DOWN HOOD", 
-       "color": "ORANGE RED", 
+       "title": "AUSTRALIA SAILGP BACKPACK", 
+       "color": "CARBON", 
        "price": 4200,
        "quantity": 1,
        "sizes" : [
@@ -67,8 +67,8 @@
      {
        "id":  110, 
        "imageUrl": "/men/sailgp/sailgp5.webp", 
-       "title": "CLOUD DOWN HOOD", 
-       "color": "ORANGE RED", 
+       "title": "DENMARK SAILGP CAP", 
+       "color": "WHITE", 
        "price": 4200,
        "quantity": 1,
        "sizes" : [
@@ -83,8 +83,8 @@
      { 
        "id": 111, 
        "imageUrl": "/men/sailgp/sailgp6.webp", 
-       "title": "CLOUD DOWN HOOD", 
-       "color": "ORANGE RED",
+       "title": "DENMARK SAILGP TEE", 
+       "color": "WHITE",
        "price": 4200,
        "quantity": 1,
        "sizes" : [
@@ -99,8 +99,8 @@
      { 
        "id": 112, 
        "imageUrl": "/men/sailgp/sailgp7.webp", 
-       "title": "CLOUD DOWN HOOD", 
-       "color": "ORANGE RED", 
+       "title": "DENMARK SAILGP CAP", 
+       "color": "WHITE", 
        "price": 4200,
        "quantity": 1,
        "sizes" : [
@@ -115,8 +115,8 @@
      { 
        "id": 113, 
        "imageUrl": "/men/sailgp/sailgp8.webp", 
-       "title": "CLOUD DOWN HOOD", 
-       "color": "ORANGE RED", 
+       "title": "DENMARK SAILGP BACKPACK", 
+       "color": "CARBON", 
        "price": 4200,
        "quantity": 1,
        "sizes" : [
@@ -131,8 +131,8 @@
      { 
        "id": 114,
        "imageUrl": "/men/sailgp/sailgp9.webp", 
-       "title": "CLOUD DOWN HOOD", 
-       "color": "ORANGE RED", 
+       "title": "DENMARK SAILGP BAG", 
+       "color": "CARBON", 
        "price": 4200,
        "quantity": 1,
        "sizes" : [
@@ -147,8 +147,8 @@
      { 
        "id": 115, 
        "imageUrl": "/men/sailgp/sailgp10.webp", 
-       "title": "CLOUD DOWN HOOD", 
-       "color": "ORANGE RED", 
+       "title": "DENMARK SAILGP WASHBAG", 
+       "color": "CARBON", 
        "price": 4200,
        "quantity": 1,
        "sizes" : [
@@ -163,8 +163,8 @@
      {
          "id": 116, 
          "imageUrl": "/men/sailgp/sailgp11.webp", 
-         "title": "CLOUD DOWN HOOD", 
-         "color": "ORANGE RED", 
+         "title": "SWITZERLAND SPRAY TECHNICAL TEE", 
+         "color": "CARBON", 
          "price": 4200,
          "quantity": 1,
          "sizes" : [
@@ -179,8 +179,8 @@
      {
         "id": 117, 
         "imageUrl": "/men/sailgp/sailgp12.webp", 
-        "title": "CLOUD DOWN HOOD", 
-        "color": "ORANGE RED", 
+        "title": "SWITZERLAND SPRAY TEAM CAP", 
+        "color": "CARBON", 
         "price": 4200,
         "quantity": 1,
         "sizes" : [
@@ -195,8 +195,8 @@
     {
         "id": 118, 
         "imageUrl": "/men/sailgp/sailgp13.webp", 
-        "title": "CLOUD DOWN HOOD", 
-        "color": "ORANGE RED", 
+        "title": "SAILGP ZIP HOOD", 
+        "color": "CARBON", 
         "price": 4200,
         "quantity": 1,
         "sizes" : [
@@ -211,8 +211,8 @@
     {
         "id": 119, 
         "imageUrl": "/men/sailgp/sailgp14.webp", 
-        "title": "CLOUD DOWN HOOD", 
-        "color": "ORANGE RED", 
+        "title": "SAILGP POLO", 
+        "color": "CARBON", 
         "price": 4200,
         "quantity": 1,
         "sizes" : [

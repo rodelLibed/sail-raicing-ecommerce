@@ -1,8 +1,5 @@
 "use client"
-import React from 'react'
-import Image from 'next/image'
 import Link from 'next/link'
-
 
 //Icons
 import { Search } from 'lucide-react'
@@ -10,9 +7,10 @@ import { Search } from 'lucide-react'
 import ContentSheetNav from './ContentSheetNav';
 import ShoppingCart from './ShoppingCart'
 
+
 const Header = () => {
 
-   
+  
   return (
     <div className='h-20 bg-black/50 w-full flex justify-between items-center px-5 z-10 sticky top-0'>
          <div>

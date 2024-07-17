@@ -2,8 +2,8 @@
     { 
       "id": 51, 
       "imageUrl": "/men/polo/polo1.webp", 
-      "title": "CLOUD DOWN HOOD",
-      "color": "ORANGE RED", 
+      "title": "BOWMAN LOGO POLO",
+      "color": "WHITE", 
       "price": 4200,
       "quantity": 1,
       "sizes" : [
@@ -18,8 +18,8 @@
      { 
        "id": 52, 
        "imageUrl": "/men/polo/polo2.webp", 
-       "title": "CLOUD DOWN HOOD", 
-       "color": "ORANGE RED", 
+       "title": "BOWMAN LOGO POLO", 
+       "color": "IVORY", 
        "price": 4200,
        "quantity": 1,
        "sizes" : [
@@ -35,8 +35,8 @@
      { 
        "id": 53, 
        "imageUrl": "/men/polo/polo3.webp", 
-       "title": "CLOUD DOWN HOOD", 
-       "color": "ORANGE RED", 
+       "title": "BOWMAN LOGO POLO", 
+       "color": "SAND", 
        "price": 4200,
        "quantity": 1,
        "sizes" : [
@@ -51,8 +51,8 @@
      },
      { "id": 54, 
        "imageUrl": "/men/polo/polo4.webp", 
-       "title": "CLOUD DOWN HOOD", 
-       "color": "ORANGE RED", 
+       "title": "BOWMAN LOGO POLO", 
+       "color": "LIGHT YELLOW", 
        "price": 4200,
        "quantity": 1,
        "sizes" : [
@@ -67,8 +67,8 @@
      {
        "id": 55, 
        "imageUrl": "/men/polo/polo5.webp", 
-       "title": "CLOUD DOWN HOOD", 
-       "color": "ORANGE RED", 
+       "title": "BOWMAN LOGO POLO", 
+       "color": "ORANGE SPRING", 
        "price": 4200,
        "quantity": 1,
        "sizes" : [
@@ -83,8 +83,8 @@
      { 
        "id": 56, 
        "imageUrl": "/men/polo/polo6.webp", 
-       "title": "CLOUD DOWN HOOD", 
-       "color": "ORANGE RED",
+       "title": "BOWMAN LOGO POLO", 
+       "color": "MERIGOLD",
        "price": 4200,
        "quantity": 1,
        "sizes" : [
@@ -99,8 +99,8 @@
      { 
        "id": 57, 
        "imageUrl": "/men/polo/polo7.webp", 
-       "title": "CLOUD DOWN HOOD", 
-       "color": "ORANGE RED", 
+       "title": "BOWMAN LOGO POLO", 
+       "color": "BRIGHT RED", 
        "price": 4200,
        "quantity": 1,
        "sizes" : [
@@ -115,8 +115,8 @@
      { 
        "id": 58, 
        "imageUrl": "/men/polo/polo8.webp", 
-       "title": "CLOUD DOWN HOOD", 
-       "color": "ORANGE RED", 
+       "title": "BOWMAN LOGO POLO", 
+       "color": "DENIM BLUE", 
        "price": 4200,
        "quantity": 1,
        "sizes" : [
@@ -131,8 +131,8 @@
      { 
        "id": 59,
        "imageUrl": "/men/polo/polo9.webp", 
-       "title": "CLOUD DOWN HOOD", 
-       "color": "ORANGE RED", 
+       "title": "BOWMAN LOGO POLO", 
+       "color": "NAVY", 
        "price": 4200,
        "quantity": 1,
        "sizes" : [

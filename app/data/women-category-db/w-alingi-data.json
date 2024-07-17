@@ -1,10 +1,11 @@
 [
     { 
-      "id": 91, 
-      "imageUrl": "/men/swimwear/swimwear1.webp", 
-      "title": "BOWMAN LOGO VOLLEY",
-      "color": "DRY SAND", 
-      "price": 4200,
+      "id": 1, 
+      "imageUrl": "/product-women-images/alingi-red-bull/w-alingi1.webp", 
+      "title": "WOMEN ARBR ON CLOUD COAST",
+      "color": "BLUE", 
+      "price": 1500,
+      "totalPrice": 1500,
       "quantity": 1,
       "sizes" : [
        { "size_id": 1, "size_name": "XS" },
@@ -16,11 +17,12 @@
      ]  
      },
      { 
-       "id": 92, 
-       "imageUrl": "/men/swimwear/swimwear2.webp", 
-       "title": "BOWMAN LOGO VOLLEY", 
-       "color": "ORANGE SPRING", 
-       "price": 4200,
+       "id": 2, 
+       "imageUrl": "/product-women-images/alingi-red-bull/w-alingi2.webp", 
+       "title": "W ARBR WIND JACKET", 
+       "color": "BLUE", 
+       "price":  5000,
+       "totalPrice": 5000,
        "quantity": 1,
        "sizes" : [
          { "size_id": 1, "size_name": "XS" },
@@ -33,11 +35,12 @@
  
      },
      { 
-       "id": 93, 
-       "imageUrl": "/men/swimwear/swimwear3.webp", 
-       "title": "BOWMAN LOGO VOLLEY", 
-       "color": "DARK NAVY", 
-       "price": 4200,
+       "id": 3, 
+       "imageUrl": "/product-women-images/alingi-red-bull/w-alingi3.webp", 
+       "title": "W ARBR SOFTSHELL JACKET", 
+       "color": "BLUE", 
+       "price": 5000,
+       "totalPrice": 5000,
        "quantity": 1,
        "sizes" : [
          { "size_id": 1, "size_name": "XS" },
@@ -49,11 +52,12 @@
        ]
  
      },
-     { "id": 94, 
-       "imageUrl": "/men/swimwear/swimwear4.webp", 
-       "title": "BOWMAN LOGO VOLLEY", 
-       "color": "DARK", 
-       "price": 4200,
+     { "id": 4, 
+       "imageUrl": "/product-women-images/alingi-red-bull/w-alingi4.webp", 
+       "title": "W ARBR FLEECE JACKET", 
+       "color": "BLUE", 
+       "price": 5000,
+       "totalPrice": 5000,
        "quantity": 1,
        "sizes" : [
          { "size_id": 1, "size_name": "XS" },
@@ -65,11 +69,12 @@
        ]  
      },
      {
-       "id": 95, 
-       "imageUrl": "/men/swimwear/swimwear5.webp", 
-       "title": "RACE TECH VOLLEY", 
-       "color": "SLALTE BEIGE", 
+       "id": 5, 
+       "imageUrl": "/product-women-images/alingi-red-bull/w-alingi5.webp", 
+       "title": "W ARBR HOOD", 
+       "color": "BLUE", 
        "price": 4200,
+       "totalPrice": 4200,
        "quantity": 1,
        "sizes" : [
          { "size_id": 1, "size_name": "XS" },
@@ -81,12 +86,13 @@
        ]
      },
      { 
-       "id": 96, 
-       "imageUrl": "/men/swimwear/swimwear6.webp", 
-       "title": "RACE TECH VOLLEY", 
-       "color": "WARM BEIGE",
-       "price": 4200,
-       "quantity": 1,
+       "id": 6, 
+       "imageUrl": "/product-women-images/alingi-red-bull/w-alingi6.webp", 
+       "title": "ARBR HELMET", 
+       "color": "BLUE",
+       "price": 2500,
+       "totalPrice": 2500,
+        "quantity": 1,
        "sizes" : [
          { "size_id": 1, "size_name": "XS" },
          { "size_id": 2, "size_name": "S" },
@@ -97,12 +103,13 @@
        ] 
      },
      { 
-       "id": 97, 
-       "imageUrl": "/men/swimwear/swimwear7.webp", 
-       "title": "RACE TECH VOLLEY", 
-       "color": "YELLOW GOLD", 
+       "id": 7, 
+       "imageUrl": "/product-women-images/alingi-red-bull/w-alingi7.webp", 
+       "title": "W ARBR TEE", 
+       "color": "BLUE", 
        "price": 4200,
-       "quantity": 1,
+       "totalPrice": 4200,
+        "quantity": 1,
        "sizes" : [
          { "size_id": 1, "size_name": "XS" },
          { "size_id": 2, "size_name": "S" },
@@ -113,12 +120,13 @@
        ]
      },
      { 
-       "id": 98, 
-       "imageUrl": "/men/swimwear/swimwear8.webp", 
-       "title": "RACE TECH VOLLEY", 
-       "color": "NAVY", 
+       "id": 8, 
+       "imageUrl": "/product-women-images/alingi-red-bull/w-alingi8.webp", 
+       "title": "W ARBR TECH TEE", 
+       "color": "BLUE", 
        "price": 4200,
-       "quantity": 1,
+       "totalPrice": 4200,
+        "quantity": 1,
        "sizes" : [
          { "size_id": 1, "size_name": "XS" },
          { "size_id": 2, "size_name": "S" },
@@ -129,12 +137,13 @@
        ]
      },
      { 
-       "id": 99,
-       "imageUrl": "/men/swimwear/swimwear9.webp", 
-       "title": "RACE TECH VOLLEY", 
-       "color": "FRONT GREY", 
+       "id": 9,
+       "imageUrl": "/product-women-images/alingi-red-bull/w-alingi9.webp", 
+       "title": "W ARBR POLO", 
+       "color": "BLUE", 
        "price": 4200,
        "quantity": 1,
+       "totalPrice": 4200,
        "sizes" : [
          { "size_id": 1, "size_name": "XS" },
          { "size_id": 2, "size_name": "S" },
@@ -143,5 +152,23 @@
          { "size_id": 5, "size_name": "XL" },
          { "size_id": 6, "size_name": "XXL" }
        ] 
+     },
+     { 
+       "id": 10, 
+       "imageUrl": "/product-women-images/alingi-red-bull/w-alingi10.webp", 
+       "title": "W ARBR TECH SHORTS", 
+       "color": "BLUE", 
+       "price": 1000,
+       "totalPrice": 1000,
+        "quantity": 1,
+       "sizes" : [
+         { "size_id": 1, "size_name": "XS" },
+         { "size_id": 2, "size_name": "S" },
+         { "size_id": 3, "size_name": "M" },
+         { "size_id": 4, "size_name": "L" },
+         { "size_id": 5, "size_name": "XL" },
+         { "size_id": 6, "size_name": "XXL" }
+       ]
      }
+    
  ]

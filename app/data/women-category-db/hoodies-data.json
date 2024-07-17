@@ -1,11 +1,12 @@
 [
     { 
-      "id": 91, 
-      "imageUrl": "/men/swimwear/swimwear1.webp", 
-      "title": "BOWMAN LOGO VOLLEY",
-      "color": "DRY SAND", 
-      "price": 4200,
+      "id": 18, 
+      "imageUrl": "/product-women-images/hoodies/hoodies1.webp", 
+      "title": "W GALE PILE ZIP JACKET",
+      "color": "SAND", 
+      "price":  4500,
       "quantity": 1,
+      "totalPrice": 4500,
       "sizes" : [
        { "size_id": 1, "size_name": "XS" },
        { "size_id": 2, "size_name": "S" },
@@ -16,12 +17,13 @@
      ]  
      },
      { 
-       "id": 92, 
-       "imageUrl": "/men/swimwear/swimwear2.webp", 
-       "title": "BOWMAN LOGO VOLLEY", 
-       "color": "ORANGE SPRING", 
-       "price": 4200,
+       "id": 19, 
+       "imageUrl": "/product-women-images/hoodies/hoodies2.webp", 
+       "title": "W GALE PILE ZIP JACKET", 
+       "color": "CARBON", 
+       "price": 4500,
        "quantity": 1,
+       "totalPrice": 4500,
        "sizes" : [
          { "size_id": 1, "size_name": "XS" },
          { "size_id": 2, "size_name": "S" },
@@ -33,12 +35,13 @@
  
      },
      { 
-       "id": 93, 
-       "imageUrl": "/men/swimwear/swimwear3.webp", 
-       "title": "BOWMAN LOGO VOLLEY", 
-       "color": "DARK NAVY", 
-       "price": 4200,
+       "id": 20, 
+       "imageUrl": "/product-women-images/hoodies/hoodies3.webp", 
+       "title": "W GALE PILE HALF ZIP", 
+       "color": "STORM WHITE", 
+       "price": 2500,
        "quantity": 1,
+       "totalPrice": 2500,
        "sizes" : [
          { "size_id": 1, "size_name": "XS" },
          { "size_id": 2, "size_name": "S" },
@@ -49,12 +52,13 @@
        ]
  
      },
-     { "id": 94, 
-       "imageUrl": "/men/swimwear/swimwear4.webp", 
-       "title": "BOWMAN LOGO VOLLEY", 
-       "color": "DARK", 
-       "price": 4200,
+     { "id": 21, 
+       "imageUrl": "/product-women-images/hoodies/hoodies4.webp", 
+       "title": "W GALE PILE HALF ZIP", 
+       "color": "SAND", 
+       "price": 4500,
        "quantity": 1,
+       "totalPrice": 4500,
        "sizes" : [
          { "size_id": 1, "size_name": "XS" },
          { "size_id": 2, "size_name": "S" },
@@ -65,12 +69,13 @@
        ]  
      },
      {
-       "id": 95, 
-       "imageUrl": "/men/swimwear/swimwear5.webp", 
-       "title": "RACE TECH VOLLEY", 
-       "color": "SLALTE BEIGE", 
+       "id": 22, 
+       "imageUrl": "/product-women-images/hoodies/hoodies5.webp", 
+       "title": "W GALE PILE HALF ZIP", 
+       "color": "CARBON", 
        "price": 4200,
        "quantity": 1,
+       "totalPrice": 4200,
        "sizes" : [
          { "size_id": 1, "size_name": "XS" },
          { "size_id": 2, "size_name": "S" },
@@ -81,12 +86,13 @@
        ]
      },
      { 
-       "id": 96, 
-       "imageUrl": "/men/swimwear/swimwear6.webp", 
-       "title": "RACE TECH VOLLEY", 
-       "color": "WARM BEIGE",
+       "id": 23, 
+       "imageUrl": "/product-women-images/hoodies/hoodies6.webp", 
+       "title": "W GALE HOOD", 
+       "color": "WHITE",
        "price": 4200,
-       "quantity": 1,
+        "quantity": 1,
+        "totalPrice": 4200,
        "sizes" : [
          { "size_id": 1, "size_name": "XS" },
          { "size_id": 2, "size_name": "S" },
@@ -97,12 +103,13 @@
        ] 
      },
      { 
-       "id": 97, 
-       "imageUrl": "/men/swimwear/swimwear7.webp", 
-       "title": "RACE TECH VOLLEY", 
-       "color": "YELLOW GOLD", 
-       "price": 4200,
-       "quantity": 1,
+       "id": 24, 
+       "imageUrl": "/product-women-images/hoodies/hoodies7.webp", 
+       "title": "W GALE HOOD", 
+       "color": "DK SAND", 
+       "price": 4500,
+        "quantity": 1,
+        "totalPrice": 4500,
        "sizes" : [
          { "size_id": 1, "size_name": "XS" },
          { "size_id": 2, "size_name": "S" },
@@ -113,12 +120,13 @@
        ]
      },
      { 
-       "id": 98, 
-       "imageUrl": "/men/swimwear/swimwear8.webp", 
-       "title": "RACE TECH VOLLEY", 
-       "color": "NAVY", 
-       "price": 4200,
-       "quantity": 1,
+       "id": 25, 
+       "imageUrl": "/product-women-images/hoodies/hoodies8.webp", 
+       "title": "W GALE HOOD", 
+       "color": "DRY SAND", 
+       "price": 4500,
+        "quantity": 1,
+        "totalPrice": 4500,
        "sizes" : [
          { "size_id": 1, "size_name": "XS" },
          { "size_id": 2, "size_name": "S" },
@@ -129,12 +137,30 @@
        ]
      },
      { 
-       "id": 99,
-       "imageUrl": "/men/swimwear/swimwear9.webp", 
-       "title": "RACE TECH VOLLEY", 
-       "color": "FRONT GREY", 
-       "price": 4200,
+       "id": 26,
+       "imageUrl": "/product-women-images/hoodies/hoodies9.webp", 
+       "title": "W GALE HOOD", 
+       "color": "WARM BEIGE", 
+       "price": 4500,
        "quantity": 1,
+       "totalPrice": 4500,
+       "sizes" : [
+         { "size_id": 1, "size_name": "XS" },
+         { "size_id": 2, "size_name": "S" },
+         { "size_id": 3, "size_name": "M" },
+         { "size_id": 4, "size_name": "L" },
+         { "size_id": 5, "size_name": "XL" },
+         { "size_id": 6, "size_name": "XXL" }
+       ] 
+     },
+     { 
+       "id": 27,
+       "imageUrl": "/product-women-images/hoodies/hoodies10.webp", 
+       "title": "W GALE HOOD", 
+       "color": "FADED YELLOW", 
+       "price": 4500,
+       "quantity": 1,
+       "totalPrice": 4500,
        "sizes" : [
          { "size_id": 1, "size_name": "XS" },
          { "size_id": 2, "size_name": "S" },

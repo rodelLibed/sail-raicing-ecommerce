@@ -2,8 +2,8 @@
    { 
      "id": 80, 
      "imageUrl": "/men/accessories/accessories1.webp", 
-     "title": "CLOUD DOWN HOOD",
-     "color": "ORANGE RED", 
+     "title": "SPRAY WATERTIGHT BAG L",
+     "color": "CARBON", 
      "price": 4200,
      "quantity": 1,
      "sizes" : [
@@ -18,8 +18,8 @@
     { 
       "id": 81, 
       "imageUrl": "/men/accessories/accessories2.webp", 
-      "title": "CLOUD DOWN HOOD", 
-      "color": "ORANGE RED", 
+      "title": "SPRAY WATERTIGHT BAG S", 
+      "color": "CARBON", 
       "price": 4200,
       "quantity": 1,
       "sizes" : [
@@ -35,8 +35,8 @@
     { 
       "id": 82, 
       "imageUrl": "/men/accessories/accessories3.webp", 
-      "title": "CLOUD DOWN HOOD", 
-      "color": "ORANGE RED", 
+      "title": "SPRAY WATERTIGHT BACKPACK", 
+      "color": "CARBON", 
       "price": 4200,
       "quantity": 1,
       "sizes" : [
@@ -51,8 +51,8 @@
     },
     { "id": 83, 
       "imageUrl": "/men/accessories/accessories4.webp", 
-      "title": "CLOUD DOWN HOOD", 
-      "color": "ORANGE RED", 
+      "title": "SPRAY WATERTIGHT BACKPACK", 
+      "color": "NAVY", 
       "price": 4200,
       "quantity": 1,
       "sizes" : [
@@ -67,8 +67,8 @@
     {
       "id": 84, 
       "imageUrl": "/men/accessories/accessories5.webp", 
-      "title": "CLOUD DOWN HOOD", 
-      "color": "ORANGE RED", 
+      "title": "RACE 70 DM3 DUFFEL BAG", 
+      "color": "NAVY", 
       "price": 4200,
       "quantity": 1,
       "sizes" : [
@@ -83,8 +83,8 @@
     { 
       "id": 85, 
       "imageUrl": "/men/accessories/accessories6.webp", 
-      "title": "CLOUD DOWN HOOD", 
-      "color": "ORANGE RED",
+      "title": "DELTA CABIN BAG", 
+      "color": "NAVY",
       "price": 4200,
        "quantity": 1,
       "sizes" : [
@@ -99,8 +99,8 @@
     { 
       "id": 86, 
       "imageUrl": "/men/accessories/accessories7.webp", 
-      "title": "CLOUD DOWN HOOD", 
-      "color": "ORANGE RED", 
+      "title": "DELTA TROLLEY BAG", 
+      "color": "NAVY", 
       "price": 4200,
        "quantity": 1,
       "sizes" : [
@@ -115,8 +115,8 @@
     { 
       "id": 87, 
       "imageUrl": "/men/accessories/accessories8.webp", 
-      "title": "CLOUD DOWN HOOD", 
-      "color": "ORANGE RED", 
+      "title": "SPRAY DUFFEL L", 
+      "color": "DIM GREY", 
       "price": 4200,
        "quantity": 1,
       "sizes" : [
@@ -131,8 +131,8 @@
     { 
       "id": 88,
       "imageUrl": "/men/accessories/accessories9.webp", 
-      "title": "CLOUD DOWN HOOD", 
-      "color": "ORANGE RED", 
+      "title": "SPRAY DUFFEL L", 
+      "color": "ASPHALT", 
       "price": 4200,
        "quantity": 1,
       "sizes" : [
@@ -147,8 +147,8 @@
     { 
       "id": 89, 
       "imageUrl": "/men/accessories/accessories10.webp", 
-      "title": "CLOUD DOWN HOOD", 
-      "color": "ORANGE RED", 
+      "title": "SPRAY DUFFEL L", 
+      "color": "CARBON", 
       "price": 4200,
        "quantity": 1,
       "sizes" : [
@@ -163,8 +163,8 @@
     {
         "id": 90, 
         "imageUrl": "/men/accessories/accessories11.webp", 
-        "title": "CLOUD DOWN HOOD", 
-        "color": "ORANGE RED", 
+        "title": "SPRAY DUFFEL L", 
+        "color": "DIM GREY", 
         "price": 4200,
          "quantity": 1,
         "sizes" : [

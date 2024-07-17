@@ -14,15 +14,15 @@ import PayMentCart from "./PayMentCart"
 
 const SheetComponent = ({sheet, className}: SheetDetails) => {
   const { handleOpenCart, handleAddToCart, openCart, loading, addCartItems, handleActiveButton, paymentCart } = useShoppingCart()
-  
+   
   return (
    <div className={className}>
-      <Sheet onOpenChange={handleOpenCart}>
+      <Sheet  onOpenChange={handleOpenCart}>
         <SheetTrigger asChild>
          <div className="flex flex-wrap justify-center items-center  gap-2 mt-5 ">
           {sheet.sizes?.map((size)=> {
              return (
-              <Button key={size.size_id} onClick={()=>handleActiveButton(size.size_id)}
+              <Button key={size.size_id} onClick={()=>handleActiveButton(size)}
               className="bg-white text-black
              hover:bg-black hover:text-white transition
                ease-in-out duration-200 border border-black 
@@ -39,7 +39,7 @@ const SheetComponent = ({sheet, className}: SheetDetails) => {
             <SheetClose onClick={handleOpenCart} className="text-black font-extrabold absolute top-5 right-5"><X /></SheetClose>
             {paymentCart ? 
              <>
-              {openCart ? <Cart2 cart2={addCartItems} /> :
+              {openCart ? <Cart2 cart2={addCartItems}  /> :
               <Cart1
               items={sheet} 
               spinner={loading}

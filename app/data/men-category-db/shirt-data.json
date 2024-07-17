@@ -2,8 +2,8 @@
     { 
       "id": 42, 
       "imageUrl": "/men/shirts/shirts1.webp", 
-      "title": "CLOUD DOWN HOOD",
-      "color": "ORANGE RED", 
+      "title": "RACE PRIMALOFT SHIRT",
+      "color": "SLATE BEIGE", 
       "price": 4200,
       "quantity": 1,
       "sizes" : [
@@ -18,8 +18,8 @@
      { 
        "id": 43, 
        "imageUrl": "/men/shirts/shirts2.webp", 
-       "title": "CLOUD DOWN HOOD", 
-       "color": "ORANGE RED", 
+       "title": "RACE PRIMALOFT SHIRT", 
+       "color": "NAVY", 
        "price": 4200,
        "quantity": 1,
        "sizes" : [
@@ -35,8 +35,8 @@
      { 
        "id": 44, 
        "imageUrl": "/men/shirts/shirts3.webp", 
-       "title": "CLOUD DOWN HOOD", 
-       "color": "ORANGE RED", 
+       "title": "RACE PRIMALOFT SHIRT", 
+       "color": "DIM GREY", 
        "price": 4200,
        "quantity": 1,
        "sizes" : [
@@ -51,8 +51,8 @@
      },
      { "id": 45, 
        "imageUrl": "/men/shirts/shirts4.webp", 
-       "title": "CLOUD DOWN HOOD", 
-       "color": "ORANGE RED", 
+       "title": "RACE PRIMALOFT SHIRT", 
+       "color": "ASPHALT", 
        "price": 4200,
        "quantity": 1,
        "sizes" : [
@@ -67,8 +67,8 @@
      {
        "id": 46, 
        "imageUrl": "/men/shirts/shirts5.webp", 
-       "title": "CLOUD DOWN HOOD", 
-       "color": "ORANGE RED", 
+       "title": "RACE PRIMALOFT SHIRT", 
+       "color": "CARBON", 
        "price": 4200,
        "quantity": 1,
        "sizes" : [
@@ -83,8 +83,8 @@
      { 
        "id": 47, 
        "imageUrl": "/men/shirts/shirts6.webp", 
-       "title": "CLOUD DOWN HOOD", 
-       "color": "ORANGE RED",
+       "title": "RACE EDITION TECH SHIRT", 
+       "color": "STORM WHITE",
        "price": 4200,
        "quantity": 1,
        "sizes" : [
@@ -99,8 +99,8 @@
      { 
        "id": 48, 
        "imageUrl": "/men/shirts/shirts7.webp", 
-       "title": "CLOUD DOWN HOOD", 
-       "color": "ORANGE RED", 
+       "title": "RACE EDITION TECH SHIRT", 
+       "color": "WARM BEIGE", 
        "price": 4200,
        "quantity": 1,
        "sizes" : [
@@ -115,8 +115,8 @@
      { 
        "id": 49, 
        "imageUrl": "/men/shirts/shirts8.webp", 
-       "title": "CLOUD DOWN HOOD", 
-       "color": "ORANGE RED", 
+       "title": "RACE EDITION TECH SHIRT", 
+       "color": "DARK NAVY", 
        "price": 4200,
        "quantity": 1,
        "sizes" : [
@@ -131,8 +131,8 @@
      { 
        "id": 50,
        "imageUrl": "/men/shirts/shirts9.webp", 
-       "title": "CLOUD DOWN HOOD", 
-       "color": "ORANGE RED", 
+       "title": "RACE EDITION TECH SHIRT", 
+       "color": "CARBON", 
        "price": 4200,
        "quantity": 1,
        "sizes" : [

@@ -9,9 +9,9 @@ const GridCardComponent = ({ cardData }: GridCardData ) => {
     return (
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-7 px-3">
           
-        {cardData.map((details)=>{
+        {cardData.map((details, index)=>{
             return (
-              <div  key={details.id} className="flex flex-col mt-14 group">
+              <div  key={index} className="flex flex-col mt-14 group">
                 <div className="relative h-[300px]">
                     <Image
                     alt="Product Details"
@@ -26,7 +26,7 @@ const GridCardComponent = ({ cardData }: GridCardData ) => {
                    <h6 className="text-white text-xs">{details.color}</h6>
                      
                      <SheetComponent sheet={details} className="hidden group-hover:block"  />
-                     <span className="text-white text-sm group-hover:hidden">{details.price}</span> 
+                     <span className="text-white text-sm group-hover:hidden">₱{details.price}</span> 
                 </div>
              </div>
             )

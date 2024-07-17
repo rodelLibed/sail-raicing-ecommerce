@@ -1,7 +1,7 @@
 "use client"
 
-import { createContext, useContext,  useState } from "react"
-import { type ShoppingCart, CartItems } from "@/lib/shoppingcartypes"
+import { createContext, useContext,  useState, useMemo, useCallback } from "react"
+import { type ShoppingCart, CartItems, Sizes } from "@/lib/shoppingcartypes"
 
 
 
@@ -23,27 +23,32 @@ export default function MenShoppingCartProvider({children} : ShoppingCartProps){
     const [openCart, setOpenCart] = useState(false)
     const [active, isActive] = useState(0)
     const [paymentCart, setPaymentCart] = useState(true)
+   
 
      
     const handleAddToCart = async (itemProps : CartItems) => {
-       const productItem = addCartItems.find((items) => items.id === itemProps.id)
+      
+      const productItem = addCartItems.find((items)=> items.id === itemProps.id)
        if(productItem){
          setLoading(true)
          await new Promise (resolve => setTimeout(resolve, 3000))
          setAddCartItems(addCartItems.map(items => {
              return items.id === itemProps.id ? {...items, price: items.price + itemProps.price, quantity: items.quantity + 1} : items
          }))
+         
          setLoading(false)
          setOpenCart(true)
        }else{
          setLoading(true)
          await new Promise (resolve => setTimeout(resolve, 3000))
-         setAddCartItems([...addCartItems, {...itemProps,  quantity: 1}])
+         setAddCartItems([...addCartItems, {...itemProps,  quantity:1}])
          setLoading(false)
          setOpenCart(true)
        } 
     
     }
+
+  
 
     const handleRemoveCart = (item:CartItems) => {
        const productItem = addCartItems.find((items) => items.id === item.id)
@@ -69,23 +74,25 @@ export default function MenShoppingCartProvider({children} : ShoppingCartProps){
     const handleIncreaseQuantity = (itemProps:CartItems) => {
         const productItem = addCartItems.find((items)=> items.id === itemProps.id)
         if(productItem){
-         const originalPrice = itemProps.price
           setAddCartItems(addCartItems.map(items => {
-            return items.id === itemProps.id ? {...items, price: items.price + originalPrice, quantity: items.quantity + 1} : items
+            return items.id === itemProps.id ? {...items, quantity: items.quantity + 1, totalPrice: (items.quantity + 1) * items.price} : items
         })) 
         }
                
     }
 
-    const handleDecreaseQuantity = (itemProps: CartItems) => { 
-        setAddCartItems(addCartItems.map((items) => {
-          return items.id === itemProps.id ? {...items, quantity: items.quantity - 1} : items
-       }))
+    const handleDecreaseQuantity = (itemProps:CartItems) => { 
+      const productItem = addCartItems.find((items)=> items.id === itemProps.id)
+        if(productItem){
+          setAddCartItems(addCartItems.map(items => {
+            return items.id === itemProps.id  ? {...items, quantity: items.quantity - 1, totalPrice: (items.quantity - 1) * items.price} : items
+        })) 
+        }
       
     }
 
-    const handleActiveButton = (id:number) => {
-      isActive(id)
+    const handleActiveButton = (size:Sizes) => {
+      isActive(size.size_id)
     }
 
 
@@ -103,7 +110,8 @@ export default function MenShoppingCartProvider({children} : ShoppingCartProps){
          handlePaymentCart,
          handleIncreaseQuantity,
          handleDecreaseQuantity,
-         handleRemoveCart
+         handleRemoveCart,
+     
           }}>
             {children}
         </ShoppingCartContext.Provider>

@@ -1,3 +1,4 @@
+"use client"
 import Cart2 from "./Cart2"
 import { Sheet, SheetContent, SheetTrigger, SheetClose} from "@/components/ui/sheet"
 import { X, ShoppingBag } from "lucide-react"
@@ -5,9 +6,12 @@ import { useShoppingCart } from "@/context/ShoppingCartContext"
 import PayMentCart from "./PayMentCart"
 
 
+
+
+
 const ShoppingCart = () => {
     const { addCartItems, paymentCart, handleOpenCart } = useShoppingCart()
-
+    
   return (
     <div>
        <Sheet onOpenChange={handleOpenCart}>

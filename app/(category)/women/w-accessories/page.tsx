@@ -1,8 +1,14 @@
+"use client"
 import Image from "next/image"
 import SeparatorComponent from "@/components/Seperator"
+import GridCardComponent from "@/components/GridCardComponent"
+import { useState } from "react"
+import storeItems from "@/app/data/women-category-db/accessories-data.json"
 
 const WomenAccessories = () => {
-    
+  
+  const [data, setData] = useState(storeItems)
+
   return (
     <main>
         <section>
@@ -40,7 +46,7 @@ const WomenAccessories = () => {
 
             {/* Product Section */}
             <section >
-                  <GridCardComponent />
+                  <GridCardComponent cardData={data} />
             </section>
     </main>
   )
@@ -48,42 +54,4 @@ const WomenAccessories = () => {
 
 export default WomenAccessories
 
-const GridCardComponent = () => {
-  const cardImage = [
-    { imageUrl: "/product-women-images/accessories/w-accessories1.webp", title: "W CLOUD DOWN HOOD", color: "ORANGE RED", price: "P.4200" },
-    { imageUrl: "/product-women-images/accessories/w-accessories2.webp", title: "W CLOUD DOWN HOOD", color: "ORANGE RED", price: "P.4200"  },
-    { imageUrl: "/product-women-images/accessories/w-accessories3.webp", title: "W CLOUD DOWN HOOD", color: "ORANGE RED", price: "P.4200"},
-    { imageUrl: "/product-women-images/accessories/w-accessories4.webp", title: "W CLOUD DOWN HOOD", color: "ORANGE RED", price: "P.4200"  },
-    { imageUrl: "/product-women-images/accessories/w-accessories5.webp", title: "W CLOUD DOWN HOOD", color: "ORANGE RED", price: "P.4200"  },
-    { imageUrl: "/product-women-images/accessories/w-accessories6.webp", title: "W CLOUD DOWN HOOD", color: "ORANGE RED", price: "P.4200"  },
-    { imageUrl: "/product-women-images/accessories/w-accessories7.webp", title: "W CLOUD DOWN HOOD", color: "ORANGE RED", price: "P.4200"  },
-    { imageUrl: "/product-women-images/accessories/w-accessories8.webp", title: "W CLOUD DOWN HOOD", color: "ORANGE RED", price: "P.4200"  },
-    { imageUrl: "/product-women-images/accessories/w-accessories9.webp", title: "W CLOUD DOWN HOOD", color: "ORANGE RED", price: "P.4200"  },
-  ]
-  return (
-     <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-7 px-3">
-          
-              {cardImage.map((details, idx)=>{
-                  return (
-                    <div  key={idx} className="flex flex-col mt-14">
-                      <div className="relative h-[300px]">
-                          <Image
-                          alt="Product Details"
-                          src={details.imageUrl}
-                          fill
-                          className="object-cover"
-                          />
-                      </div>
-                      <div className="text-center mt-10">
-                        <h1 className=" text-white text-lg font-medium ">{details.title}</h1>
-                         <h6 className="text-white text-sm">{details.color}</h6>
-                         <span className="text-white text-sm">{details.price}</span>
-                      </div>
-                   </div>
-                  )
-              })}
-          
-     </div>
-  )
-}
 

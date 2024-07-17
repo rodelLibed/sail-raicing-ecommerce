@@ -1,3 +1,4 @@
+
 import Image from "next/image"
 import { type Cart1 } from "@/lib/types"
 import { useShoppingCart } from "@/context/ShoppingCartContext"
@@ -28,13 +29,14 @@ export default function Cart1 ({
            <div className="flex flex-wrap justify-center items-center  gap-2 mt-5 ">
             {items.sizes?.map((size)=> {
                return (
-                <Button key={size.size_id} onClick={()=>handleActiveButton(size.size_id)}
+                <Button key={size.size_id} onClick={()=>handleActiveButton(size)}
                  className={`${active === size.size_id ? 'bg-black text-white' : 'bg-white text-black' } 
                   hover:bg-black hover:text-white transition ease-in-out duration-200 border border-black 
                    w-5 h-5 p-[14px] md:p-4 `} size="sm">
                     {size.size_name}
                 </Button>
                )
+               
             })}
              
            </div>
@@ -46,9 +48,9 @@ export default function Cart1 ({
            <SeparatorComponent className="bg-black"/>
            <h2 className="text-black font-semibold text-lg">Available Color</h2>
            <div className="flex gap-2">
-             <Image src="/alingi-red-bull/alingi-jacket1.webp" height={100} width={100} alt="Sheet Image"/>
-             <Image src="/alingi-red-bull/alingi-jacket1.webp" height={100} width={100} alt="Sheet Image"/>
-             <Image src="/alingi-red-bull/alingi-jacket1.webp" height={100} width={100} alt="Sheet Image"/>
+             <Image src="/men/alingi-red-bull/alingi-jacket.webp" height={100} width={100} alt="Sheet Image"/>
+             <Image src="/men/alingi-red-bull/alingi-jacket.webp" height={100} width={100} alt="Sheet Image"/>
+             <Image src="/men/alingi-red-bull/alingi-jacket.webp" height={100} width={100} alt="Sheet Image"/>
            </div>
        </div>
      </div>

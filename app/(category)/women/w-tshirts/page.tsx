@@ -1,8 +1,12 @@
+"use client"
 import Image from "next/image"
 import SeparatorComponent from "@/components/Seperator"
+import { useState } from "react"
+import GridCardComponent from "@/components/GridCardComponent"
+import storeItems from "@/app/data/women-category-db/t-shirt-data.json"
 
 const WomenTshirt = () => {
-    
+  const [data] = useState(storeItems)
   return (
     <main>
         <section>
@@ -40,7 +44,7 @@ const WomenTshirt = () => {
 
             {/* Product Section */}
             <section >
-                  <GridCardComponent />
+                  <GridCardComponent cardData={data} />
             </section>
     </main>
   )
@@ -48,43 +52,4 @@ const WomenTshirt = () => {
 
 export default WomenTshirt
 
-const GridCardComponent = () => {
-  const cardImage = [
-    { imageUrl: "/product-women-images/t-shirt/w-tshirt1.webp", title: "W CLOUD DOWN HOOD", color: "ORANGE RED", price: "P.4200" },
-    { imageUrl: "/product-women-images/t-shirt/w-tshirt2.webp", title: "W CLOUD DOWN HOOD", color: "ORANGE RED", price: "P.4200"  },
-    { imageUrl: "/product-women-images/t-shirt/w-tshirt3.webp", title: "W CLOUD DOWN HOOD", color: "ORANGE RED", price: "P.4200"},
-    { imageUrl: "/product-women-images/t-shirt/w-tshirt4.webp", title: "W CLOUD DOWN HOOD", color: "ORANGE RED", price: "P.4200"  },
-    { imageUrl: "/product-women-images/t-shirt/w-tshirt5.webp", title: "W CLOUD DOWN HOOD", color: "ORANGE RED", price: "P.4200"  },
-    { imageUrl: "/product-women-images/t-shirt/w-tshirt6.webp", title: "W CLOUD DOWN HOOD", color: "ORANGE RED", price: "P.4200"  },
-    { imageUrl: "/product-women-images/t-shirt/w-tshirt7.webp", title: "W CLOUD DOWN HOOD", color: "ORANGE RED", price: "P.4200"  },
-    { imageUrl: "/product-women-images/t-shirt/w-tshirt8.webp", title: "W CLOUD DOWN HOOD", color: "ORANGE RED", price: "P.4200"  },
-    { imageUrl: "/product-women-images/t-shirt/w-tshirt9.webp", title: "W CLOUD DOWN HOOD", color: "ORANGE RED", price: "P.4200"  },
-    
-  ]
-  return (
-     <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-7 px-3">
-          
-              {cardImage.map((details, idx)=>{
-                  return (
-                    <div  key={idx} className="flex flex-col mt-14">
-                      <div className="relative h-[300px]">
-                          <Image
-                          alt="Product Details"
-                          src={details.imageUrl}
-                          fill
-                          className="object-cover"
-                          />
-                      </div>
-                      <div className="text-center mt-10">
-                        <h1 className=" text-white text-lg font-medium ">{details.title}</h1>
-                         <h6 className="text-white text-sm">{details.color}</h6>
-                         <span className="text-white text-sm">{details.price}</span>
-                      </div>
-                   </div>
-                  )
-              })}
-          
-     </div>
-  )
-}
 

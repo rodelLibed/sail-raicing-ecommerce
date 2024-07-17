@@ -1,11 +1,12 @@
 [
     { 
-      "id": 91, 
-      "imageUrl": "/men/swimwear/swimwear1.webp", 
-      "title": "BOWMAN LOGO VOLLEY",
-      "color": "DRY SAND", 
-      "price": 4200,
+      "id": 85, 
+      "imageUrl": "/product-women-images/t-shirt/w-tshirt1.webp", 
+      "title": "W RACE HEAVY LS TEE",
+      "color": "GREEN MIST", 
+      "price":  4500,
       "quantity": 1,
+      "totalPrice": 4500,
       "sizes" : [
        { "size_id": 1, "size_name": "XS" },
        { "size_id": 2, "size_name": "S" },
@@ -16,12 +17,13 @@
      ]  
      },
      { 
-       "id": 92, 
-       "imageUrl": "/men/swimwear/swimwear2.webp", 
-       "title": "BOWMAN LOGO VOLLEY", 
-       "color": "ORANGE SPRING", 
-       "price": 4200,
+       "id": 86, 
+       "imageUrl": "/product-women-images/t-shirt/w-tshirt2.webp", 
+       "title": "W RACE HEAVY LS TEE", 
+       "color": "CARBON", 
+       "price": 4500,
        "quantity": 1,
+       "totalPrice": 4500,
        "sizes" : [
          { "size_id": 1, "size_name": "XS" },
          { "size_id": 2, "size_name": "S" },
@@ -33,12 +35,13 @@
  
      },
      { 
-       "id": 93, 
-       "imageUrl": "/men/swimwear/swimwear3.webp", 
-       "title": "BOWMAN LOGO VOLLEY", 
-       "color": "DARK NAVY", 
-       "price": 4200,
+       "id": 87, 
+       "imageUrl": "/product-women-images/t-shirt/w-tshirt3.webp", 
+       "title": "W RACE HEAVY LS TEE", 
+       "color": "WHITE", 
+       "price": 2500,
        "quantity": 1,
+       "totalPrice": 2500,
        "sizes" : [
          { "size_id": 1, "size_name": "XS" },
          { "size_id": 2, "size_name": "S" },
@@ -49,12 +52,13 @@
        ]
  
      },
-     { "id": 94, 
-       "imageUrl": "/men/swimwear/swimwear4.webp", 
-       "title": "BOWMAN LOGO VOLLEY", 
-       "color": "DARK", 
-       "price": 4200,
+     { "id": 88, 
+       "imageUrl": "/product-women-images/t-shirt/w-tshirt4.webp", 
+       "title": "W RACE HEAVY LS TEE", 
+       "color": "CRIMSON PINK", 
+       "price": 4500,
        "quantity": 1,
+       "totalPrice": 4500,
        "sizes" : [
          { "size_id": 1, "size_name": "XS" },
          { "size_id": 2, "size_name": "S" },
@@ -65,12 +69,13 @@
        ]  
      },
      {
-       "id": 95, 
-       "imageUrl": "/men/swimwear/swimwear5.webp", 
-       "title": "RACE TECH VOLLEY", 
-       "color": "SLALTE BEIGE", 
+       "id": 89, 
+       "imageUrl": "/product-women-images/t-shirt/w-tshirt5.webp", 
+       "title": "W RACE HEAVY LS TEE", 
+       "color": "GREEN", 
        "price": 4200,
        "quantity": 1,
+       "totalPrice": 4200,
        "sizes" : [
          { "size_id": 1, "size_name": "XS" },
          { "size_id": 2, "size_name": "S" },
@@ -81,12 +86,13 @@
        ]
      },
      { 
-       "id": 96, 
-       "imageUrl": "/men/swimwear/swimwear6.webp", 
-       "title": "RACE TECH VOLLEY", 
-       "color": "WARM BEIGE",
+       "id": 90, 
+       "imageUrl": "/product-women-images/t-shirt/w-tshirt6.webp", 
+       "title": "W RACE HEAVY LS TEED", 
+       "color": "DARK",
        "price": 4200,
-       "quantity": 1,
+        "quantity": 1,
+        "totalPrice": 4200,
        "sizes" : [
          { "size_id": 1, "size_name": "XS" },
          { "size_id": 2, "size_name": "S" },
@@ -97,12 +103,13 @@
        ] 
      },
      { 
-       "id": 97, 
-       "imageUrl": "/men/swimwear/swimwear7.webp", 
-       "title": "RACE TECH VOLLEY", 
-       "color": "YELLOW GOLD", 
-       "price": 4200,
-       "quantity": 1,
+       "id": 91, 
+       "imageUrl": "/product-women-images/t-shirt/w-tshirt7.webp", 
+       "title": "W WAVE TEE", 
+       "color": "OFF WHITE", 
+       "price": 4500,
+        "quantity": 1,
+        "totalPrice": 4500,
        "sizes" : [
          { "size_id": 1, "size_name": "XS" },
          { "size_id": 2, "size_name": "S" },
@@ -113,12 +120,13 @@
        ]
      },
      { 
-       "id": 98, 
-       "imageUrl": "/men/swimwear/swimwear8.webp", 
-       "title": "RACE TECH VOLLEY", 
-       "color": "NAVY", 
-       "price": 4200,
-       "quantity": 1,
+       "id": 92, 
+       "imageUrl": "/product-women-images/t-shirt/w-tshirt8.webp", 
+       "title": "W WAVE TEE", 
+       "color": "SLATE BEIGE", 
+       "price": 4500,
+        "quantity": 1,
+        "totalPrice": 4500,
        "sizes" : [
          { "size_id": 1, "size_name": "XS" },
          { "size_id": 2, "size_name": "S" },
@@ -129,19 +137,20 @@
        ]
      },
      { 
-       "id": 99,
-       "imageUrl": "/men/swimwear/swimwear9.webp", 
-       "title": "RACE TECH VOLLEY", 
-       "color": "FRONT GREY", 
-       "price": 4200,
-       "quantity": 1,
-       "sizes" : [
-         { "size_id": 1, "size_name": "XS" },
-         { "size_id": 2, "size_name": "S" },
-         { "size_id": 3, "size_name": "M" },
-         { "size_id": 4, "size_name": "L" },
-         { "size_id": 5, "size_name": "XL" },
-         { "size_id": 6, "size_name": "XXL" }
-       ] 
-     }
+        "id": 93, 
+        "imageUrl": "/product-women-images/t-shirt/w-tshirt9.webp", 
+        "title": "W WAVE TEE", 
+        "color": "LIGHT PINK", 
+        "price": 4500,
+         "quantity": 1,
+         "totalPrice": 4500,
+        "sizes" : [
+          { "size_id": 1, "size_name": "XS" },
+          { "size_id": 2, "size_name": "S" },
+          { "size_id": 3, "size_name": "M" },
+          { "size_id": 4, "size_name": "L" },
+          { "size_id": 5, "size_name": "XL" },
+          { "size_id": 6, "size_name": "XXL" }
+        ]
+      }
  ]

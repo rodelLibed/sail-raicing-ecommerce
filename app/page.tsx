@@ -8,12 +8,12 @@ import CardComponent2 from '@/components/Card2'
 import CarouselComponent2 from '@/components/Carousel2'
 import { Button, buttonVariants } from '@/components/ui/button'
 import HorizontalScrollCarousel from '@/components/HorizontalScrollCarousel'
+import { TextGenerateEffect } from '@/components/TextEffect'
 
 
 
 export default function Home() {
  
-  
 
   return (
     <main className=' ' >
@@ -142,7 +142,9 @@ export default function Home() {
                 <button className='text-white border border-white/30 px-5 py-2 '>Subscribe</button>
             </div>
          </section>
-         <div className='h-10'></div> 
+         <div className='mt-10 md:5 px-10  flex justify-center items-center'>
+           <TextGenerateEffect className='text-white' words='This website is a clone of [Sail Racing]. It is not an original creation. All rights and credits go to the original creators.. My purpose is to learn and how to build this kind of sites' />
+          </div> 
     
     </main>
   )

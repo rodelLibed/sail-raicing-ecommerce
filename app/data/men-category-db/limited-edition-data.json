@@ -2,8 +2,8 @@
     { 
       "id": 100, 
       "imageUrl": "/men/limited-edition/limited-edition1.webp", 
-      "title": "CLOUD DOWN HOOD",
-      "color": "ORANGE RED", 
+      "title": "RACE EDITION GTX WOOL COAT",
+      "color": "DARK NAVY", 
       "price": 4200,
       "quantity": 1,
       "sizes" : [
@@ -18,8 +18,8 @@
      { 
        "id": 101, 
        "imageUrl": "/men/limited-edition/limited-edition2.webp", 
-       "title": "CLOUD DOWN HOOD", 
-       "color": "ORANGE RED", 
+       "title": "RACE EDITION GTX WOOL COAT", 
+       "color": "CARBON", 
        "price": 4200,
        "quantity": 1,
        "sizes" : [
@@ -35,8 +35,8 @@
      { 
        "id":  102, 
        "imageUrl": "/men/limited-edition/limited-edition3.webp", 
-       "title": "CLOUD DOWN HOOD", 
-       "color": "ORANGE RED", 
+       "title": "RACE EDITION GTX WOOL HOOD", 
+       "color": "DARK NAVY", 
        "price": 4200,
        "quantity": 1,
        "sizes" : [
@@ -51,8 +51,8 @@
      },
      { "id":  103, 
        "imageUrl": "/men/limited-edition/limited-edition4.webp", 
-       "title": "CLOUD DOWN HOOD", 
-       "color": "ORANGE RED", 
+       "title": "RACE EDITION GTX WOOL HOOD", 
+       "color": "CARBON", 
        "price": 4200,
        "quantity": 1,
        "sizes" : [
@@ -67,8 +67,8 @@
      {
        "id":  104, 
        "imageUrl": "/men/limited-edition/limited-edition5.webp", 
-       "title": "CLOUD DOWN HOOD", 
-       "color": "ORANGE RED", 
+       "title": "POLE DOWN VECTRAN JACKET", 
+       "color": "NAVY", 
        "price": 4200,
        "quantity": 1,
        "sizes" : [
@@ -83,8 +83,8 @@
      { 
        "id":  105, 
        "imageUrl": "/men/limited-edition/limited-edition6.webp", 
-       "title": "CLOUD DOWN HOOD", 
-       "color": "ORANGE RED",
+       "title": "POLE DOWN VECTRAN PANT", 
+       "color": "NAVY",
        "price": 4200,
        "quantity": 1,
        "sizes" : [

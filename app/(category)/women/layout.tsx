@@ -1,8 +1,11 @@
-
+"use client"
 import Link from 'next/link'
+import { usePathname } from 'next/navigation'
 const WomenLayout = ({children}: {
   children: React.ReactNode
 }) => {
+  
+  const pathname = usePathname()
   const Links = [ 
     { url: "/women/w-alingi", name: "ARBR" },
     { url: "/women/w-jackets", name: "JACKETS" },
@@ -23,7 +26,12 @@ const WomenLayout = ({children}: {
               overflow-hidden gap-9 text-sm font-extralight text-white/60 ml-4">
                   {Links.map((links, index)=>{
                       return (
-                        <Link key={index} href={links.url} >{links.name}</Link>
+                        <Link 
+                          key={index} 
+                          href={links.url} 
+                          className={`${pathname === links.url ? 'text-emerald-600' : ''}`}>
+                            {links.name}
+                        </Link>
                       )
                   })}
             </div> 
